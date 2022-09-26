@@ -1,0 +1,1446 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API Donum",
+    "description": "Actions utilisées par la console Donum.",
+    "contact": {
+      "name": "GeCoon Team",
+      "email": "Lst_Projet_Cocoon@maf.fr"
+    },
+    "version": "internal"
+  },
+  "paths": {
+    "/api/cote/{familleId}": {
+      "get": {
+        "tags": [
+          "Cote"
+        ],
+        "parameters": [
+          {
+            "name": "familleId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CoteDocument"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CoteDocument"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CoteDocument"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/documents/createdocument": {
+      "post": {
+        "tags": [
+          "Documents"
+        ],
+        "parameters": [
+          {
+            "name": "DocumentId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "AssigneRedacteur",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CategoriesCote",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CategoriesFamille",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CategoriesTypeDocument",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Commentaire",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CompteId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "CoteDocumentId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "DateDocument",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "FamilleDocumentId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Libelle",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "NumeroGc",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "NumeroSinistre",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "SousDossierSinistre",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ReferenceSecondaire",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Statut",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "TypeDocumentId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Important",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "LienMiniKiosque",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Depose.Date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "Depose.UserCode",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Depose.DisplayName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Vu.Date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "Vu.UserCode",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Vu.DisplayName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "QualiteValidee.IsValidate",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "QualiteValidee.Date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "QualiteValidee.UserCode",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "QualiteValidee.DisplayName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Traite.Date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "Traite.UserCode",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Traite.DisplayName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "IsMiniKiosqueDoc",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "ChantierLibelle",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "attachements": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "attachements": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/documents/deletedocument": {
+      "delete": {
+        "tags": [
+          "Documents"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "application/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "text/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/documents/download": {
+      "get": {
+        "tags": [
+          "Documents"
+        ],
+        "parameters": [
+          {
+            "name": "documentId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "isPreview",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/documents/duplicatemetadatas": {
+      "post": {
+        "tags": [
+          "Documents"
+        ],
+        "parameters": [
+          {
+            "name": "username",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "application/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "text/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/documents": {
+      "get": {
+        "tags": [
+          "Documents"
+        ],
+        "parameters": [
+          {
+            "name": "Page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Filter.CompteId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Filter.PersonneId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Filter.DateMin",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "Filter.DateMax",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "Filter.Libelle",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Filter.AssignTo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Filter.NumGC",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Filter.NumSinistre",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Filter.NumContrat",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Filter.NumChantier",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Filter.LibelleChantier",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Filter.Important",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "Filter.Entrant",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "Filter.FamilleDocumentId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Filter.CoteDocumentId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Filter.TypeDocumentId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "SortColumn",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "SortDirection",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DocumentDtoPagedResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DocumentDtoPagedResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DocumentDtoPagedResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/documents/transferfrommnk": {
+      "post": {
+        "tags": [
+          "Documents"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "application/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "text/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/documents/updatedocument": {
+      "put": {
+        "tags": [
+          "Documents"
+        ],
+        "parameters": [
+          {
+            "name": "username",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "application/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "text/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/DocumentDto"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/famille": {
+      "get": {
+        "tags": [
+          "Famille"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FamilleDocument"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FamilleDocument"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FamilleDocument"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/typedoc/{coteId}": {
+      "get": {
+        "tags": [
+          "TypeDoc"
+        ],
+        "parameters": [
+          {
+            "name": "coteId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TypeDocument"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TypeDocument"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TypeDocument"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/utilisateur": {
+      "get": {
+        "tags": [
+          "Utilisateur"
+        ],
+        "parameters": [
+          {
+            "name": "term",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "withInactif",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Utilisateur"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Utilisateur"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Utilisateur"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/utilisateur/{userAccount}": {
+      "get": {
+        "tags": [
+          "Utilisateur"
+        ],
+        "parameters": [
+          {
+            "name": "userAccount",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Utilisateur"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Utilisateur"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Utilisateur"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CoteDocument": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "codeCouleur": {
+            "type": "string",
+            "nullable": true
+          },
+          "coteDocumentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "familleDocumentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isActif": {
+            "type": "boolean"
+          },
+          "libelle": {
+            "type": "string",
+            "nullable": true
+          },
+          "ordre": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DocumentDto": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "nullable": true
+          },
+          "assigneRedacteur": {
+            "type": "string",
+            "nullable": true
+          },
+          "categoriesCote": {
+            "type": "string",
+            "nullable": true
+          },
+          "categoriesFamille": {
+            "type": "string",
+            "nullable": true
+          },
+          "categoriesTypeDocument": {
+            "type": "string",
+            "nullable": true
+          },
+          "commentaire": {
+            "type": "string",
+            "nullable": true
+          },
+          "compteId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "coteDocumentId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dateDocument": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "familleDocumentId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "libelle": {
+            "type": "string",
+            "nullable": true
+          },
+          "numeroGc": {
+            "type": "string",
+            "nullable": true
+          },
+          "numeroSinistre": {
+            "type": "string",
+            "nullable": true
+          },
+          "sousDossierSinistre": {
+            "type": "string",
+            "nullable": true
+          },
+          "referenceSecondaire": {
+            "type": "string",
+            "nullable": true
+          },
+          "statut": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeDocumentId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "important": {
+            "type": "boolean"
+          },
+          "lienMiniKiosque": {
+            "type": "string",
+            "nullable": true
+          },
+          "depose": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/WorkflowItem"
+              }
+            ],
+            "nullable": true
+          },
+          "vu": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/WorkflowItem"
+              }
+            ],
+            "nullable": true
+          },
+          "qualiteValidee": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/QualiteValidationItem"
+              }
+            ],
+            "nullable": true
+          },
+          "traite": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/WorkflowItem"
+              }
+            ],
+            "nullable": true
+          },
+          "isMiniKiosqueDoc": {
+            "type": "boolean"
+          },
+          "chantierLibelle": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DocumentDtoPagedResult": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DocumentDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DonumSearchCriteria": {
+        "type": "object",
+        "properties": {
+          "compteId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "personneId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dateMin": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dateMax": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "libelle": {
+            "type": "string",
+            "nullable": true
+          },
+          "assignTo": {
+            "type": "string",
+            "nullable": true
+          },
+          "numGC": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "numSinistre": {
+            "type": "string",
+            "nullable": true
+          },
+          "numContrat": {
+            "type": "string",
+            "nullable": true
+          },
+          "numChantier": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "libelleChantier": {
+            "type": "string",
+            "nullable": true
+          },
+          "important": {
+            "type": "boolean"
+          },
+          "entrant": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "familleDocumentId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "coteDocumentId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "typeDocumentId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DonumSearchCriteriaPagedSortedRequest": {
+        "type": "object",
+        "properties": {
+          "sortColumn": {
+            "type": "string",
+            "nullable": true
+          },
+          "sortDirection": {
+            "type": "string",
+            "nullable": true
+          },
+          "page": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "filter": {
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/DonumSearchCriteria"
+              }
+            ],
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FamilleDocument": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "familleDocumentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isActif": {
+            "type": "boolean"
+          },
+          "libelle": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QualiteValidationItem": {
+        "type": "object",
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/WorkflowItem"
+          }
+        ],
+        "properties": {
+          "isValidate": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TypeDocument": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "codeTypeDoc": {
+            "type": "string",
+            "nullable": true
+          },
+          "coteDocumentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isActif": {
+            "type": "boolean"
+          },
+          "isTimeline": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "libelle": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeDocumentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "visibilitePapsExtra": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Utilisateur": {
+        "type": "object",
+        "properties": {
+          "codeUtilisateur": {
+            "type": "string",
+            "nullable": true
+          },
+          "displayName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WorkflowItem": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "userCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "displayName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}",
+      "url": "http://localhost:32172/swagger/internal/swagger.json",
+      "output": null,
+      "newLineBehavior": "Auto"
+    }
+  },
+  "codeGenerators": {
+    "openApiToTypeScriptClient": {
+      "className": "DonumApiService",
+      "moduleName": "",
+      "namespace": "",
+      "typeScriptVersion": 2.7,
+      "template": "Angular",
+      "promiseType": "Promise",
+      "httpClass": "HttpClient",
+      "withCredentials": false,
+      "useSingletonProvider": false,
+      "injectionTokenType": "InjectionToken",
+      "rxJsVersion": 6.0,
+      "dateTimeType": "Date",
+      "nullValue": "Undefined",
+      "generateClientClasses": true,
+      "generateClientInterfaces": false,
+      "generateOptionalParameters": true,
+      "exportTypes": true,
+      "wrapDtoExceptions": true,
+      "exceptionClass": "ApiException",
+      "clientBaseClass": null,
+      "wrapResponses": false,
+      "wrapResponseMethods": [],
+      "generateResponseClasses": true,
+      "responseClass": "SwaggerResponse",
+      "protectedMethods": [],
+      "configurationClass": null,
+      "useTransformOptionsMethod": false,
+      "useTransformResultMethod": false,
+      "generateDtoTypes": true,
+      "operationGenerationMode": "SingleClientFromOperationId",
+      "markOptionalProperties": true,
+      "generateCloneMethod": false,
+      "typeStyle": "Interface",
+      "enumStyle": "Enum",
+      "useLeafType": false,
+      "classTypes": [],
+      "extendedClasses": [],
+      "extensionCode": null,
+      "generateDefaultValues": true,
+      "excludedTypeNames": [],
+      "excludedParameterNames": [],
+      "handleReferences": false,
+      "generateConstructorInterface": true,
+      "convertConstructorInterfaceData": false,
+      "importRequiredTypes": true,
+      "useGetBaseUrlMethod": false,
+      "baseUrlTokenName": "API_BASE_URL",
+      "queryNullValue": "",
+      "useAbortSignal": false,
+      "inlineNamedDictionaries": false,
+      "inlineNamedAny": false,
+      "includeHttpContext": false,
+      "templateDirectory": null,
+      "typeNameGeneratorType": null,
+      "propertyNameGeneratorType": null,
+      "enumNameGeneratorType": null,
+      "serviceHost": null,
+      "serviceSchemes": null,
+      "output": "donum-api.service.ts",
+      "newLineBehavior": "Auto"
+    }
+  }

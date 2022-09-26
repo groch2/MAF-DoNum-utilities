@@ -1,0 +1,15 @@
+USE [MAF_Security]
+GO
+
+BEGIN TRANSACTION
+
+DECLARE @APPLICATION_ID AS INT = (SELECT [ApplicationId] FROM [Ref].[Application] WHERE [Name] = 'Donum')
+DECLARE @APP_REDIRECT_URI AS VARCHAR(2000) = (SELECT [RedirectUris] FROM [Ref].[Application] WHERE [ApplicationId] = @APPLICATION_ID)
+DECLARE @SEPARATOR AS NVARCHAR(1) = CASE WHEN RIGHT(@APP_REDIRECT_URI, 1) = ';' THEN '' ELSE ';' END
+SET @APP_REDIRECT_URI = CONCAT(@APP_REDIRECT_URI, @SEPARATOR, 'http://cons-donum-intra.loc.maf.local')
+
+UPDATE [Ref].[Application]
+SET [RedirectUris] = @APP_REDIRECT_URI
+WHERE [ApplicationId] = @APPLICATION_ID
+
+COMMIT TRANSACTION

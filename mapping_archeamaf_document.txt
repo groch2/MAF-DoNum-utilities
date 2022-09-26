@@ -1,0 +1,65 @@
+DOCN
+ID_GED	RegroupementId
+ID_DOC	DocumentId,	
+DuplicationId
+FAMILLE	CategoriesFamille
+COTE	CategoriesCote
+TYPE_DOC	CategoriesTypeDocument
+MODE	CanalPrincipal
+CODE_PIECE	CanalSecondaire
+NO_CONTRAT	NumeroContrat
+NO_AVENANT	NumeroAvenant
+LINK	Link
+DATE_NUM	DateNum
+HEURE_NUM	HeureNum
+NO_DOSSIER	NumeroSinistre
+NO_ADHERENT	CompteId
+PROVENANCE	Provenance
+DATE_DOCUMENT	DateDocument
+DATE_INTEGRATION	DeposeLe
+GROUPE	AssigneGroup
+SENS	Sens
+TYPE_CONTACT	TypeContact
+PAGE	FichierNombrePages
+STATUS_INDEXATION	Statut
+CACHE_10	CodeBarreId
+FichierOrigine	FichierNom
+DOC_SIZE	FichierTaille
+NO_PROPOS	NumeroProposition
+CODE_GESTIONNAIRE_REDAC	AssigneRedacteur
+LIB_DOC	Libelle
+PRESENCE_AR	PresenceAr
+VISIBILITE_EXTERNE	VisibiliteExterne
+CODE_ORIGINE	CodeOrigine
+O.LibelleOrigine
+DATE_MAJ	ModifieLe
+CODE_MAJ	ModifiePar
+CODE_SOUS_DOSSIER	SousDossierSinistre
+DATE_VISU	VuLe
+CODE_REDACTEUR_VISU	VuPar
+DATE_QUALITE	QualiteValideeLe
+CODE_REDACTEUR_QUALITE	QualiteValideePar
+VALIDE_QUALITE	QualiteValideeValide
+CODE_REDACTEUR_DEPOSE	DeposePar
+DATE_TRAITE_DOC	TraiteLe
+CODE_REDACTEUR_TRAITE_DOC	TraitePar
+CODE_DEPARTEMENT	AssigneDepartement
+DIGEST	Important
+PREVIEW	Preview
+MultiCompteId
+ChantierId
+DateValiditeDebut	PeriodeValiditeDebut
+DateValiditeFin	PeriodeValiditeFin
+CodeAssureur	AssureurId
+TypeGarantie
+Commentaire
+DocumentValide
+ReferenceAttestation
+VisibilitePapsExtranet
+PersonneID	PersonneId
+numeroGC	NumeroGc
+REF_TIERS	RefTiers
+REF_SECONDAIRE	ReferenceSecondaire
+PRIORITE	Priorite
+Tenant
+Horodatage

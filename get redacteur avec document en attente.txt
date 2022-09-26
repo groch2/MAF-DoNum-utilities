@@ -1,0 +1,1 @@
+https://api-ged-intra.int.maf.local/v1/Documents?$select=docn,documentId,compteId&$filter=statut eq 'INDEXE' and assigneRedacteur eq 'ROD' and traitePar eq null and traiteLe eq null
