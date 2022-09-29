@@ -4,10 +4,12 @@
   <Namespace>System.Text.Json.Serialization</Namespace>
 </Query>
 
-var httpClient = new HttpClient {
+var butApiClient = new HttpClient {
 	BaseAddress = new Uri("https://api-but-intra.int.maf.local/api/v2/Utilisateurs/codes/")
 };
-var response = await httpClient.GetStringAsync("MEDA,HAK");
+var userCodes = File.ReadAllLines(@"C:\Users\deschaseauxr\Documents\DONUM\Users_codes_with_documents.txt");
+var queryString = string.Join(',', userCodes);
+var response = await butApiClient.GetStringAsync(queryString);
 var _user = new { Login = "", CodeUtilisateur = "", Prenom = "", Nom = "" };
 var array = JsonDocument.Parse(response).RootElement;
 var arrayLength = array.GetArrayLength();
