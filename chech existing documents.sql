@@ -1,12 +1,14 @@
 USE [GEDMAF]
 GO
 
-declare @ID_DOC as varchar(32) = '20220509637979862014117445'
+declare @ID_DOC as varchar(32) = '20220509637979862014117446'
 SELECT [DOCN]
 FROM [dbo].[ARCHEAMAF]
 WHERE [ID_DOC] = @ID_DOC
+GO
 
-declare @DOCN as varchar(9) = '234567899'
+declare @DOCN as varchar(9) = '234567901'
 SELECT [DOCN]
 FROM [dbo].[ARCHEAMAF]
-WHERE [DOCN] = @ID_DOC
+WHERE [DOCN] = @DOCN
+GO

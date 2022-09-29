@@ -1,0 +1,1 @@
+https://api-ged-intra.int.maf.local/v1/Documents/$count/?$select=docn,documentId,compteId,vuPar,qualiteValideeValide,traitePar&$filter=statut eq 'INDEXE' and assigneRedacteur ne '' and qualiteValideeValide eq true and (vuPar eq null or vuPar eq '') and (traitePar eq null or traitePar eq '')
