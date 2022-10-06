@@ -32,9 +32,10 @@ const document = {
   "documentStatus": null
 }
 // Object.fromEntries(Object.entries(document).filter(([key, _]) => /id$/i.test(key)))
-const _document = [document].map(({ coteDocumentId, familleDocumentId, typeDocumentId }) => ({ coteDocumentId, familleDocumentId, typeDocumentId }))[0]
+const properties = new Set(['coteDocumentId', 'familleDocumentId', 'typeDocumentId', 'numeroGc', 'libelle', 'commentaire'])
+const _document = Object.fromEntries(Object.entries(document).filter(([key, _]) => properties.has(key)))
 console.log(_document)
 const { libelle: familleDocumentLibelle } = familles.find(({ familleDocumentId }) => _document.familleDocumentId === familleDocumentId)
-const { libelle: coteDocumentLibelle } = cotes.value.find(({ coteDocumentId, familleDocumentId: _familleDocumentId }) => coteDocumentId === _document.coteDocumentId && _familleDocumentId === _document.familleDocumentId)
+const { libelle: coteDocumentLibelle } = cotes.value.find(({ coteDocumentId, familleDocumentId }) => coteDocumentId === _document.coteDocumentId && familleDocumentId === _document.familleDocumentId)
 const { libelle: typeDocumentLibelle } = types_doc.value.find(({ typeDocumentId }) => typeDocumentId === _document.typeDocumentId)
 console.log({ familleDocumentLibelle, coteDocumentLibelle, typeDocumentLibelle })
