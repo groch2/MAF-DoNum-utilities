@@ -12,10 +12,11 @@ var _document = new { documentId = "" };
 var fileContent = File.ReadAllText(@"C:\Users\deschaseauxr\Documents\DONUM\documents.json");
 var json = JsonDocument.Parse(fileContent).RootElement;
 var array = json.GetProperty("value");
-var arrayLength = array.GetArrayLength();
+var nb_documents = array.GetArrayLength();
+new { nb_documents }.Dump(); 
 // dé-commenter cette ligne pour tester
 // Environment.Exit(0);
-for(var index = 0; index < arrayLength; index++) {
+for(var index = 0; index < nb_documents; index++) {
 	var rawDocument = array[index].GetRawText();
 	dynamic document = JsonSerializer.Deserialize(rawDocument, _document.GetType());
 	string documentId = document.documentId;
