@@ -1,0 +1,32 @@
+[
+  {
+    "code": "DOCUMENTS COCOON",
+    "familleDocumentId": 17,
+    "isActif": true,
+    "libelle": "Documents Cocoon"
+  },
+  {
+    "code": "DOCUMENTS CONTRAT",
+    "familleDocumentId": 19,
+    "isActif": true,
+    "libelle": "Documents contrat"
+  },
+  {
+    "code": "DOCUMENTS EMOA",
+    "familleDocumentId": 22,
+    "isActif": true,
+    "libelle": "Documents Emoa"
+  },
+  {
+    "code": "DOCUMENTS PAPS",
+    "familleDocumentId": 23,
+    "isActif": true,
+    "libelle": "Documents Paps"
+  },
+  {
+    "code": "DOCUMENTS PERSONNES",
+    "familleDocumentId": 24,
+    "isActif": true,
+    "libelle": "Documents Personnes"
+  }
+]
