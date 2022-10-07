@@ -2,3 +2,5 @@ document.json
 documents.json
 Users_codes_with_documents.txt
 Nb_docs_by_user.html
+*.pdf
+*.png
