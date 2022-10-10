@@ -1,0 +1,239 @@
+{
+  "@odata.context": "https://api-ged-intra.int.maf.local/v1/$metadata#Familles",
+  "value": [
+    {
+      "familleDocumentId": 1,
+      "code": "CG (DOSSIER NON REFERENCE)",
+      "libelle": "Cg (Dossier Non Reference)",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 2,
+      "code": "CG / SISIN",
+      "libelle": "Cg / Sisin",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 3,
+      "code": "COMPTABILITE",
+      "libelle": "Comptabilite",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 4,
+      "code": "CONTRAT AMI",
+      "libelle": "Contrat Ami",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 5,
+      "code": "CONTRAT BASE",
+      "libelle": "Contrat Base",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 6,
+      "code": "CONTRAT CACG",
+      "libelle": "Contrat Cacg",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 7,
+      "code": "CONTRAT CNR",
+      "libelle": "Contrat Cnr",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 8,
+      "code": "CONTRAT DO",
+      "libelle": "Contrat Do",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 9,
+      "code": "CONTRAT INTERNATIONAL",
+      "libelle": "Contrat International",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 10,
+      "code": "CONTRAT PJP",
+      "libelle": "Contrat Pjp",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 11,
+      "code": "CONTRAT RCE",
+      "libelle": "Contrat Rce",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 12,
+      "code": "CONTRAT RCT",
+      "libelle": "Contrat Rct",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 13,
+      "code": "CONTRAT SPS",
+      "libelle": "Contrat Sps",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 14,
+      "code": "CONTRAT TRC",
+      "libelle": "Contrat Trc",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 15,
+      "code": "DEFENSE",
+      "libelle": "Defense",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 16,
+      "code": "DESIGNATION D'AVOCAT REMBOURSEMENT",
+      "libelle": "Designation D'Avocat Remboursement",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 17,
+      "code": "DOCUMENTS COCOON",
+      "libelle": "Documents Cocoon",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 18,
+      "code": "DOCUMENTS CONTRACTUELS",
+      "libelle": "Documents Contractuels",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 19,
+      "code": "DOCUMENTS CONTRAT",
+      "libelle": "Documents contrat",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 20,
+      "code": "DOCUMENTS COURTIERS",
+      "libelle": "Documents Courtiers",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 21,
+      "code": "DOCUMENTS DO",
+      "libelle": "Documents Do",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 22,
+      "code": "DOCUMENTS EMOA",
+      "libelle": "Documents Emoa",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 23,
+      "code": "DOCUMENTS PAPS",
+      "libelle": "Documents Paps",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 24,
+      "code": "DOCUMENTS PERSONNES",
+      "libelle": "Documents Personnes",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 25,
+      "code": "DRO",
+      "libelle": "Dro",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 26,
+      "code": "GRANDS CHANTIERS",
+      "libelle": "Grands Chantiers",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 27,
+      "code": "GRANDS CHANTIERS RCT",
+      "libelle": "Grands Chantiers Rct",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 28,
+      "code": "INJONCTION DE PAYER",
+      "libelle": "Injonction De Payer",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 29,
+      "code": "JUGEMENTS ET RECOURS",
+      "libelle": "Jugements Et Recours",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 30,
+      "code": "MEMO",
+      "libelle": "Memo",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 31,
+      "code": "NON RENSEIGNE",
+      "libelle": "Non Renseigne",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 32,
+      "code": "PIECES",
+      "libelle": "Pieces",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 33,
+      "code": "PIECES DE PROCEDURES",
+      "libelle": "Pieces De Procedures",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 34,
+      "code": "RECOUVREMENT D'HONORAIRES",
+      "libelle": "Recouvrement D'Honoraires",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 35,
+      "code": "RECOUVREMENT ORDONNANCE DE TAXE",
+      "libelle": "Recouvrement Ordonnance De Taxe",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 36,
+      "code": "SUIVI AFFAIRE",
+      "libelle": "Suivi Affaire",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 37,
+      "code": "VERIFICATION - REFUS DE GARANTIE",
+      "libelle": "Verification - Refus De Garantie",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 38,
+      "code": "DOCUMENTS ENTRANTS",
+      "libelle": "Documents entrants",
+      "isActif": true
+    },
+    {
+      "familleDocumentId": 39,
+      "code": "DOCUMENTS COMMUNICATION",
+      "libelle": "Documents communication",
+      "isActif": true
+    }
+  ]
+}
