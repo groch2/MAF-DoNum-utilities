@@ -20,8 +20,8 @@ const tryptiques =
     .sort((
       { famille: famille_1, cote: cote_1, type: type_1 },
       { famille: famille_2, cote: cote_2, type: type_2 }) => {
-      return localCompareCaseInsensitive(famille_1, famille_2) ??
-        localCompareCaseInsensitive(cote_1, cote_2) ??
+      return localCompareCaseInsensitive(famille_1, famille_2) ||
+        localCompareCaseInsensitive(cote_1, cote_2) ||
         localCompareCaseInsensitive(type_1, type_2)
     })
 // console.log(tryptiques)
