@@ -1,9 +1,10 @@
 USE [MAF_NSI]
 GO
 
-WITH PERSONNE_P ([RowNumber], [CompteID], [PersonneID], [Nom], [Prenom]) AS (
+WITH PERSONNE_P ([RowNumber], [CompteID], [TypeCompteID], [PersonneID], [Nom], [Prenom]) AS (
 	SELECT ROW_NUMBER() OVER(ORDER BY P.[PersonneID] ASC)
 		  ,C.[CompteID]
+		  ,C.[TypeCompteID]
 		  ,P.[PersonneID]
 		  ,P.Nom
 		  ,P.Prenom
@@ -15,6 +16,11 @@ WITH PERSONNE_P ([RowNumber], [CompteID], [PersonneID], [Nom], [Prenom]) AS (
 	AND Nom <> ''
 	AND Prenom is not null
 	AND Prenom <> '')
-SELECT * FROM PERSONNE_P
-WHERE [RowNumber] BETWEEN 9700 AND 9750
+SELECT [CompteID], [PersonneID], [Nom], [Prenom], [Espace].[Description] as [EspaceCompte]
+FROM PERSONNE_P
+JOIN [RefMaf].[TypeCompte]
+ON PERSONNE_P.[TypeCompteID] = [TypeCompte].[TypeCompteId]
+JOIN [RefMaf].[Espace]
+ON [TypeCompte].EspaceId = [Espace].EspaceId
+WHERE [RowNumber] BETWEEN 1040 AND 1140
 GO

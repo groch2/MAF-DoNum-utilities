@@ -27,7 +27,8 @@ var array = JsonDocument.Parse(actual_documents).RootElement.GetProperty("value"
 var documents_id_list = get_documents_id_list(array).ToArray();
 
 // fichier json qui contient une version antérieure des documents du rédacteur
-var fileContent = File.ReadAllText(@"C:\Users\deschaseauxr\Documents\DONUM\documents.json");
+const string previous_rédacteur_documents_file_path = @"C:\Users\deschaseauxr\Documents\DONUM\documents.json";
+var fileContent = File.ReadAllText(previous_rédacteur_documents_file_path);
 var previous_documents = JsonDocument.Parse(fileContent).RootElement.GetProperty("value");
 var previous_documents_id_list = get_documents_id_list(previous_documents).ToArray();
 

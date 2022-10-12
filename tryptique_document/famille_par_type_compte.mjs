@@ -1,0 +1,57 @@
+const espaceIdByTypeCompteId = [
+  // EMOA
+  [5, 3],
+  [6, 3],
+  [18, 3],
+  [46, 3],
+
+  // CONTRAT
+  [1, 1],
+  [2, 1],
+  [3, 1],
+  [4, 1],
+  [8, 1],
+  [9, 1],
+  [16, 1],
+  [19, 1],
+  [20, 1],
+  [21, 1],
+  [30, 1],
+  [34, 1],
+  [36, 1],
+  [40, 1],
+  [51, 1],
+  [64, 2],
+  [41, 2],
+  [43, 2],
+  [48, 2],
+  [37, 2],
+  [35, 2],
+  [25, 2],
+  [26, 2],
+  [27, 2],
+  [22, 2],
+  [23, 2],
+  [24, 4],
+  [28, 4],
+  [29, 4],
+  [31, 5],
+  [32, 5],
+  [33, 5],
+  [52, 5],
+  [53, 5],
+  [54, 5],
+  [55, 5],
+  [56, 5],
+  [63, 5],
+]
+const familleIdByEspaceId = [
+  [1, 19],
+  [2, 19],
+  [4, 19],
+  [5, 19],
+  [3, 22],
+]
+const familleIdByTypeCompteId =
+  espaceIdByTypeCompteId.map(([typeCompteId, espaceId_1]) => [typeCompteId, familleIdByEspaceId.find(([espaceId_2, _]) => espaceId_2 === espaceId_1)[1]])
+console.log(familleIdByTypeCompteId)

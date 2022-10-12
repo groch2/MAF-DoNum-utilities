@@ -1,0 +1,2977 @@
+[
+  {
+    "famille": "CG (DOSSIER NON REFERENCE)",
+    "cote": "CG",
+    "type": "CORRESPONDANCES DIVERSES DNR"
+  },
+  {
+    "famille": "CG (DOSSIER NON REFERENCE)",
+    "cote": "CG",
+    "type": "COURRIER ADHERENT DNR"
+  },
+  {
+    "famille": "CG / SISIN",
+    "cote": "ACTES",
+    "type": "CR DE REUNION"
+  },
+  {
+    "famille": "CG / SISIN",
+    "cote": "CORRESPONDANCE",
+    "type": "CORRESPONDANCES DIVERSES SS"
+  },
+  {
+    "famille": "CG / SISIN",
+    "cote": "PROCEDURE-CG",
+    "type": "AR LETTRE DE MISSION"
+  },
+  {
+    "famille": "CG / SISIN",
+    "cote": "PROCEDURE-CG",
+    "type": "CONSULTATION D'AVOCAT"
+  },
+  {
+    "famille": "CG / SISIN",
+    "cote": "PROCEDURE-CG",
+    "type": "PROCEDURE"
+  },
+  {
+    "famille": "COMPTABILITE",
+    "cote": "COMPTA-HONO",
+    "type": "AVIS DE RECETTE (FRANCHISE)"
+  },
+  {
+    "famille": "COMPTABILITE",
+    "cote": "COMPTA-HONO",
+    "type": "AVIS DE RECETTES"
+  },
+  {
+    "famille": "COMPTABILITE",
+    "cote": "COMPTA-HONO",
+    "type": "NOTE D'HONORAIRES"
+  },
+  {
+    "famille": "COMPTABILITE",
+    "cote": "COMPTA-HONO",
+    "type": "NOTE D'HONORAIRES EXPERT"
+  },
+  {
+    "famille": "CONTRAT AMI",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "CONTRAT CACG",
+    "cote": "CONTRATS",
+    "type": "ATTESTATION RCD"
+  },
+  {
+    "famille": "CONTRAT CACG",
+    "cote": "CONTRATS",
+    "type": "ATTESTATION RCD PORTEE GEN."
+  },
+  {
+    "famille": "CONTRAT CACG",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "CONTRAT CACG",
+    "cote": "CONTRATS",
+    "type": "CONVENTION SPECIALE DO"
+  },
+  {
+    "famille": "CONTRAT CACG",
+    "cote": "CONTRATS",
+    "type": "CONVENTION SPECIALE TRC"
+  },
+  {
+    "famille": "CONTRAT CACG",
+    "cote": "CONTRATS",
+    "type": "DEMANDE DE GARANTIE"
+  },
+  {
+    "famille": "CONTRAT CNR",
+    "cote": "CONTRATS",
+    "type": "AVENANT"
+  },
+  {
+    "famille": "CONTRAT CNR",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "CONTRAT CNR",
+    "cote": "CONTRATS",
+    "type": "CONVENTION SPECIALE"
+  },
+  {
+    "famille": "CONTRAT CNR",
+    "cote": "CONTRATS",
+    "type": "PROPOSITION SIGNEE"
+  },
+  {
+    "famille": "CONTRAT CNR",
+    "cote": "CONTRATS",
+    "type": "QUESTIONNAIRE TECHNIQUE"
+  },
+  {
+    "famille": "CONTRAT DO",
+    "cote": "CONTRATS",
+    "type": "ATTESTATION ASSURANCE"
+  },
+  {
+    "famille": "CONTRAT DO",
+    "cote": "CONTRATS",
+    "type": "ATTESTATION ASSURANCE"
+  },
+  {
+    "famille": "CONTRAT DO",
+    "cote": "CONTRATS",
+    "type": "AVENANT"
+  },
+  {
+    "famille": "CONTRAT DO",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "CONTRAT DO",
+    "cote": "CONTRATS",
+    "type": "CONVENTION SPECIALE"
+  },
+  {
+    "famille": "CONTRAT DO",
+    "cote": "CONTRATS",
+    "type": "PROPOSITION SIGNEE"
+  },
+  {
+    "famille": "CONTRAT DO",
+    "cote": "CONTRATS",
+    "type": "QUESTIONNAIRE TECHNIQUE"
+  },
+  {
+    "famille": "CONTRAT INTERNATIONAL",
+    "cote": "CONTRATS",
+    "type": "AVENANT CONTRAT"
+  },
+  {
+    "famille": "CONTRAT INTERNATIONAL",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "CONTRAT INTERNATIONAL",
+    "cote": "CONTRATS",
+    "type": "CONVENTION SPECIALE"
+  },
+  {
+    "famille": "CONTRAT PJP",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "CONTRAT PJP",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "CONTRAT RCE",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "CONTRAT RCT",
+    "cote": "CONTRATS",
+    "type": "CONVENTION SPECIALE"
+  },
+  {
+    "famille": "CONTRAT SPS",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "CONTRAT TRC",
+    "cote": "CONTRATS",
+    "type": "AVENANT"
+  },
+  {
+    "famille": "CONTRAT TRC",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "CONTRAT TRC",
+    "cote": "CONTRATS",
+    "type": "PROPOSITION SIGNEE"
+  },
+  {
+    "famille": "DEFENSE",
+    "cote": "ACTES",
+    "type": "INTERVENTION SUR ASSIGNATION"
+  },
+  {
+    "famille": "DESIGNATION D'AVOCAT REMBOURSEMENT",
+    "cote": "ACTES",
+    "type": "AVOCAT PERSO ADH"
+  },
+  {
+    "famille": "DESIGNATION D'AVOCAT REMBOURSEMENT",
+    "cote": "ACTES",
+    "type": "RAPPEL DE FRANCHISE"
+  },
+  {
+    "famille": "DESIGNATION D'AVOCAT REMBOURSEMENT",
+    "cote": "ACTES",
+    "type": "REMBOURSEMENT"
+  },
+  {
+    "famille": "DESIGNATION D'AVOCAT REMBOURSEMENT",
+    "cote": "ACTES",
+    "type": "SAISINE AVOCAT ADH"
+  },
+  {
+    "famille": "DESIGNATION D'AVOCAT REMBOURSEMENT",
+    "cote": "ACTES",
+    "type": "SAISINE AVOCAT MAF"
+  },
+  {
+    "famille": "DOCUMENTS COCOON",
+    "cote": "ENCAISSEMENT",
+    "type": "BORDEREAU DE REMISE EN BANQUE"
+  },
+  {
+    "famille": "DOCUMENTS COMMUNICATION",
+    "cote": "RDVMAF",
+    "type": "ATTESTATIONS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRACTUELS",
+    "cote": "TRAITES",
+    "type": "AVENANT DE TRAITES DE REASSURANCE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRACTUELS",
+    "cote": "TRAITES",
+    "type": "PAGE SIGNATURE AVENANT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRACTUELS",
+    "cote": "TRAITES",
+    "type": "PAGE SIGNATURE TRAITE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRACTUELS",
+    "cote": "TRAITES",
+    "type": "TRAITES DE REASSURANCE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "AUTRES",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "COMMISSION ATTENTE VALIDATION",
+    "type": "BORDEREAU DETAILLE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "COMMISSION ATTENTE VALIDATION",
+    "type": "LETTRE ACCOMPAGNEMENT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTENTIEUX",
+    "type": "AR POSTE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTENTIEUX",
+    "type": "CONTENTIEUX DE MASSE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTENTIEUX",
+    "type": "MISE EN DEMEURE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTENTIEUX",
+    "type": "RELANCE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTENTIEUX",
+    "type": "RESILIATION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTENTIEUX",
+    "type": "SUSPENSION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTRATS",
+    "type": "AVENANT CONTRAT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTRATS",
+    "type": "CONVENTION SPECIALE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTRATS",
+    "type": "LETTRE AVENANT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTROLE",
+    "type": "SOUSCRIPTION/ENREGISTREMENT-1.0"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTROLE",
+    "type": "SOUSCRIPTION/ENREGISTREMENT-1.1"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTROLE",
+    "type": "SOUSCRIPTION/ENREGISTREMENT-1.2"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "CONTROLE",
+    "type": "SOUSCRIPTION/ENREGISTREMENT-1.2"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "COTE A SPECIFIER",
+    "type": "TYPE A SPECIFIER"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "AJUSTEMENT DAP"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "AJUSTEMENTS (DEMANDE ET D'OFFICE)"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "AUTRE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "COMPLEMENTAIRE APRES SINISTRE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "COTISATION COMPLEMENTAIRE APRES SINISTRE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "COURRIER DAP"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "COURRIER SUR ANOMALIE DAP"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "DAP"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "DAP"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "DAP ISIS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "DAP NEANT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "DAPGC INITIALE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "DAPGC INITIALE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "DECLARATION INTERNET"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "DEMANDE AJUSTEMENT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "DEMANDE AJUSTEMENT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "LETTRE AJUSTEMENT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "LETTRE FINANCIERE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "PAGE RECAPITULATIVE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "PAGE RECAPITULATIVE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "DECLARATION ACTIVITES",
+    "type": "RELEVE PAIEMENT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "FAUSSE ATTESTATION",
+    "type": "COURRIER FAUSSE ATTESTATION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "FAUSSE ATTESTATION",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "FAUSSE ATTESTATION",
+    "type": "DOCUMENT PROCEDURE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "FAUSSE ATTESTATION",
+    "type": "HONORAIRES NOTE DE FRAIS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "ATTESTATION ASSURANCE ENTREPRISE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "ATTESTATION ASSURANCE PARTICIPANTS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "ATTESTATION CCRD"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "AUTRE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "CONSTRUCTEUR NON REALISATEUR (CNR)"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "CONTRAT DE MISSION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "CONTRAT DE MISSION HORS CONTRAT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "COUPE GENERALE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "DECLARATION OUVERTURE CHANTIER"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "DECOMPTE GENERAL ET DÉFINITIF DES TRAVAUX (DGD)"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "DEVIS SIGNE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "DIVERS HORS CONTRAT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "DOMMAGES OUVRAGE (DO)"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "IMPRIME CERFA"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "LETTRE DE COMMANDE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "LISTE DES ENTREPRISES"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "NOTICE DE PRESENTATION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "ORGANIGRAMME MOE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "PLAN DE MASSE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "PV DE RECEPTION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "RAPPORT ETUDE SOL"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "RAPPORT INITIAL CONTROLEUR"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "TABLEAU REPARTITION HONORAIRES MOE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GC",
+    "type": "TOUS RISQUES CHANTIER (TRC)"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "ANALYSE CONTRAT DE MISSION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "APPEL COTISATION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "AR TESSI"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "AR TESSI ND"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "BORDEREAU DE REMISE EN BANQUE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "COMMISSION DES CONTRATS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "CONSEIL DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "COURRIER GESTION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "COURRIER PAIEMENT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "DECLARATION DE MISSION OU CHANTIER"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "DELAI DE PAIEMENT ECHEANCIERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "DEMANDE ATTESTATION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "DEMANDE DE REGLEMENT MANUEL"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "DEMANDE DE REMBOURSEMENT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "DEMANDE SUR MISSION PARTICULIERE (GARANTIE/TARIFICATION)"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "DEPASSEMENT PLAFOND"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "FONDS DE SOLIDARITE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "INTERNATIONAL BANK ACCOUNT NUMBER"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "JEU DE PLAN"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "MANDAT SEPA"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "MODIFICATION ADMINISTRATIVE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "ORDRE DE VIREMENT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "PRELEVEMENT MANDAT SEPA"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "REVISION BP"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "REVISION DE TAUX DE COTISATION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "RIB"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "RISTOURNE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "SCAN DE CHEQUE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "SCAN LETTRE CHEQUE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION",
+    "type": "SUIVI IMPAYE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION ASSOCIES",
+    "type": "ACTE CESSION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION ASSOCIES",
+    "type": "COPIE PIECE IDENTITE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION ASSOCIES",
+    "type": "CV"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION ASSOCIES",
+    "type": "DIPLOME"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION ASSOCIES",
+    "type": "EXTRAIT K-BIS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION ASSOCIES",
+    "type": "LISTE ASSOCIES"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION ASSOCIES",
+    "type": "PARTS SOCIALES"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION ASSOCIES",
+    "type": "PROCES-VERBAL ASSEMBLEE GENERALE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "GESTION ASSOCIES",
+    "type": "STATUTS SOCIETE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "MAF EN DEV",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PIECE JOINTE",
+    "type": "PIECE JOINTE CR DE CONTACT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "ATTESTATION ANNUELLE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "ATTESTATION NOMINATIVE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "AVENANTS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "CONVENTION SPECIALE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "LETTRE MONTANT DE GARANTIE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PROCEDURE COLLECTIVE",
+    "type": "A.R. REVENU SIGNE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PROCEDURE COLLECTIVE",
+    "type": "CONTESTATION DE CREANCE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PROCEDURE COLLECTIVE",
+    "type": "COURRIER PROCEDURE COLLECTIVE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PROCEDURE COLLECTIVE",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PROCEDURE COLLECTIVE",
+    "type": "INFORMATION PROCEDURE COLLECTIVE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "PROCEDURE COLLECTIVE",
+    "type": "PLAN"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "REASSURANCE",
+    "type": "ACCORD REASSURANCE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RECLAMATION",
+    "type": "AR POSTE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RECLAMATION",
+    "type": "REPONSE DEFINITIVE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RECLAMATION",
+    "type": "SUIVI"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RECOURS",
+    "type": "A.R. REVENU SIGNE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RECOURS",
+    "type": "COURRIER NON DISTRIBUE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RECOURS",
+    "type": "COURRIER RECOURS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RECOURS",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RECOURS",
+    "type": "DOCUMENT PROCEDURE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RECOURS",
+    "type": "HONORAIRES NOTE DE FRAIS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RELEVE DE SINISTRALITE",
+    "type": "COURRIER RELEVE DE SINISTRALITE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RELEVE DE SINISTRALITE",
+    "type": "CP CG ASSUREUR ADVERSE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RELEVE DE SINISTRALITE",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RELEVE DE SINISTRALITE",
+    "type": "PROPOSITION ASSUREUR ADVERSE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RELEVE DE SINISTRALITE",
+    "type": "RELEVE DE SINISTRALITE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "REMBOURSEMENT",
+    "type": "SCAN DE CHEQUE MANUEL"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RESILIATION",
+    "type": "COURRIER DE RESILIATION ADHERENT / JUSTIFICATIFS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RESILIATION",
+    "type": "COURRIER RESILIATION MAF/EUROMAF"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RESILIATION",
+    "type": "DEMANDE DE RESILIATION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RESILIATION",
+    "type": "DEMANDE DE RESILIATION A TITRE CONSERVATOIRE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "RESILIATION",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "ATTESTATION CP CG ASSUREUR PRECEDENT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "ATTESTATION INSCRIPTION ORDRE DES ARCHITECTES"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "ATTESTATION SUR HONNEUR ET DECLARATION MISSIONS EN COURS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "AUTRE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "BILAN POUR RE-SOUSCRIPTION (S/P / SINISTRES)"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "CERTIFICAT INSEE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "CERTIFICATION OPQIBI / OPQTECC / CFAI"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "CERTIFICATS DE TRAVAIL"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "CONTRAT DE MISSION HORS CONTRAT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "COPIE PIECE IDENTITE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "COPIE PIECE IDENTITE DIRIGEANT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "COURRIER SOUSCRIPTION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "CV"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "DEVIS SIGNE HORS CONTRAT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "DIPLOMES"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "DIVERS HORS CONTRAT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "EXTRAIT K-BIS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "INSCRIPTION CROA (ATTESTATION, RECEPISSE)"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "LETTRE DE COMMANDE HORS CONTRAT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "LETTRE RESILIATION DERNIER ASSUREUR"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "NOTICE EXPLICATIVE ACTIVITE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "PRIMES ASSUREUR PRECEDENT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "PROPOSITION"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "QUESTIONNAIRE TECHNIQUE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "RAPPORT ETUDE SOL"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "RECEPISSE DEMANDE INSCRIPTION ORDRE ARCHITECTE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "RECEPISSE DEMANDE INSCRIPTION ORDRE ARCHITECTE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "RELEVE SINISTRALITE ASSUREUR PRECEDENT"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "SIRENE "
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "SOUSCRIPTION",
+    "type": "STATUTS SOCIETE"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "TRESOR PUBLIC",
+    "type": "AVIS A TIERS DETENTEUR"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "TRESOR PUBLIC",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS CONTRAT",
+    "cote": "TRESOR PUBLIC",
+    "type": "OPPOSITION ADMINISTRATIVE"
+  },
+  {
+    "famille": "DOCUMENTS COURTIERS",
+    "cote": "COMMISSION",
+    "type": "BORDEREAU DETAILLE"
+  },
+  {
+    "famille": "DOCUMENTS COURTIERS",
+    "cote": "COMMISSION",
+    "type": "LETTRE ACCOMPAGNEMENT"
+  },
+  {
+    "famille": "DOCUMENTS DO",
+    "cote": "CONTRATS",
+    "type": "DEMANDE DE SOUSCRIPTION"
+  },
+  {
+    "famille": "DOCUMENTS DO",
+    "cote": "CONTRATS",
+    "type": "QUESTIONNAIRE COURTIER"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "ATTESTATIONS ASSURANCES",
+    "type": "ATTESTATION ASSURANCE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "ATTESTATIONS ASSURANCES",
+    "type": "ATTESTATION ASSURANCE INVALIDE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "ATTESTATIONS ASSURANCES",
+    "type": "DOC"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "ATTESTATIONS ASSURANCES",
+    "type": "K-BIS"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "ATTESTATIONS ASSURANCES",
+    "type": "LISTE INTERVENANTS"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "ATTESTATIONS ASSURANCES",
+    "type": "MARCHE ENTREPRISE INVALIDE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "ATTESTATIONS ASSURANCES",
+    "type": "MARCHE ENTREPRISE VALIDE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "ATTESTATIONS ASSURANCES",
+    "type": "MARCHE MAITRISE OEUVRE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "ATTESTATIONS ASSURANCES",
+    "type": "OS ENTREPRISE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "ATTESTATIONS ASSURANCES",
+    "type": "OS ENTREPRISE INVALIDE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "AUTRES",
+    "type": "DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COTE A SPECIFIER",
+    "type": "TYPE A SPECIFIER"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS GESTION",
+    "type": "AVIS AGGRAVATION"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS GESTION",
+    "type": "AVIS ECHEANCE REVISIONNEL"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS GESTION",
+    "type": "AVIS PROLONGATION TRC"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS GESTION",
+    "type": "COURRIER GESTION"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS GESTION",
+    "type": "LETTRE 1ERE MISE EN DEMEURE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS GESTION",
+    "type": "LETTRE 2EME MISE EN DEMEURE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS GESTION",
+    "type": "LETTRE 3EME MISE EN DEMEURE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS GESTION",
+    "type": "LETTRE AVENANT DE FIN DE TRAVAUX"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS GESTION",
+    "type": "LETTRE DE RELANCE N°1"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS GESTION",
+    "type": "LETTRE DE RELANCE N°2"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS GESTION",
+    "type": "QUITTANCE PAIEMENT"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS SOUSCRIPTION",
+    "type": "AVIS ECHEANCE PREVISIONNEL"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "COURRIERS SOUSCRIPTION",
+    "type": "COURRIER DE SOUSCRIPTION"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "ATTESTATION DE NON SINISTRE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "ATTESTATION MAF"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "AVENANTS"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "CONTRAT DE VENTE (CACG)"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "DEMANDE DE SOUSCRIPTION (CACG)"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "DEMANDE PREALABLE DE GARANTIE (CACG)"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "PROPOSITION"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES CONTRACTUELLES",
+    "type": "QUESTIONNAIRE TECHNIQUE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE FIN DE TRAVAUX",
+    "type": "DECLARATION ACHEVEMENT TRAVAUX"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE FIN DE TRAVAUX",
+    "type": "DGD (DECOMPTE GENERAL DEFINITIF)"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE FIN DE TRAVAUX",
+    "type": "LEVE OBSERVATION BUREAU DE CONTROLE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE FIN DE TRAVAUX",
+    "type": "PV DE LIVRAISON"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE FIN DE TRAVAUX",
+    "type": "RAPPORT FINAL BUREAU DE CONTROLE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE FIN DE TRAVAUX",
+    "type": "RT 2012 - ATTESTATION FIN DE TRAVAUX"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "BILAN DE SINISTRALITE (CACG)"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "CAHIER CLAUSES ADMINISTRATIVES PARTICULIERES (CCAP)"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "CAHIER CLAUSES PARTICULIERES (CCTP)"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "DESCRIPTIF SOMMAIRE DES TRAVAUX (CACG)"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "DEVIS"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "ETUDE DE SOL"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "ETUDES STRUCTURE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "ETUDES THERMIQUES"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "NOTICE DESCRIPTIVE DES TRAVAUX"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "PERMIS DE CONSTRUIRE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "PLANNING DES TRAVAUX"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "PLANS"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "RAPPORT INITIAL BUREAU DE CONTROLE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "REGLEMENT DES CONSULTATIONS"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "RT 2012 - ATTESTATION PERMIS DE CONSTRUIRE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "RT 2012 - ETUDE DE FAISABILITE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "PIECES TECHNIQUES DE SOUSCRIPTION",
+    "type": "STATUS SCI"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "RECEPTION",
+    "type": "ATTESTATION DE RECEPTION"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "RECEPTION",
+    "type": "CONSTAT HUISSIER / ETAT AVANCEMENT DES TRAVAUX"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "RECEPTION",
+    "type": "CONVOCATION A LA RECEPTION"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "RECEPTION",
+    "type": "ETAT HUISSIER / ETAT AVANCEMENT DES TRAVAUX"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "RECEPTION",
+    "type": "LEVEE DE RESERVE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "RECEPTION",
+    "type": "LIQUIDATION JUDICIAIRE"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "RECEPTION",
+    "type": "PROCES-VERBAUX DE RECEPTION"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "RECEPTION",
+    "type": "RESERVES"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "RECEPTION",
+    "type": "TABLEAU RECAPITULATIF"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "SINISTRE",
+    "type": "CALCUL TAUX RECOUVREMENT"
+  },
+  {
+    "famille": "DOCUMENTS EMOA",
+    "cote": "SINISTRE",
+    "type": "COURRIER SERVICE SINISTRES"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CASSATION",
+    "type": "COURRIER CASSATION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CASSATION",
+    "type": "MEMOIRE CASSATION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CASSATION",
+    "type": "POURVOI"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CASSATION",
+    "type": "POURVOI CASSATION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "ATTESTATION D ASSURANCE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "CONTRAT DE MISSION ADHERENT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "COURRIER VERIFICATION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "DAP (paps)"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "DO DOSSIER SOUSCRIPTION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "FORMULAIRE D.D.S."
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "HONORAIRES ADHERENT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "P.V. DE RECEPTION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "PJ AVENANT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "PJ CR DE CHANTIER/DEVIS/PLAN"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "PJ PERMIS DE CONSTRUIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CONTROLE GARANTIES",
+    "type": "POLICE D ASSURANCE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "CORRESPONDANCE",
+    "type": "DECOMPTE HUISSIER"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "DOCUMENTS INTERNES",
+    "type": "ECHANGE PILOTAGE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "DOCUMENTS INTERNES",
+    "type": "ENQUETE RISQUE CREDIT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "DOCUMENTS INTERNES",
+    "type": "MIGRATION MNK"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "DOCUMENTS INTERNES",
+    "type": "OUVERTURE EVALUATION PILOTAGE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "FRAIS ET HONORAIRES",
+    "type": "DETAIL DES PRESTATIONS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "FRAIS ET HONORAIRES",
+    "type": "NOTE HONORAIRES"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "ANNEXES FRAIS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "AR POSTE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "AUTRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "COMPTE RENDU"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "CONCLUSIONS OU MEMOIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "CONVOCATION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "COURRIER"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DECOMPTE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DECOMPTE HUISSIER"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO BORDEREAU DE VIREMENT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO COPIE CHEQUE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO COURRIER"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO DECLARATION DE SINISTRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO DECLENCHEMENT AVT 1"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO FICHE BAREME"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO LA R COMPLEMENTAIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO LA RD"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO LA RP"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO LA RU"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO NOTE INFORMATIONS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO NOTE RESPONSABILITE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO PROLONGATION DELAI"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO RAPPORT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO RAPPORT  PRELIMINAIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO RAPPORT DEFINITIF"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO RAPPORT DEFINITIF COMPLEMENTAIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO RAPPORT INTERMEDIAIRE / COMPLEMENTAIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "DO RAPPORT UNIQUE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "ETAT DE FRAIS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "FICHE SIGNALISATION DOSSIER SENSIBLE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "NOTE EXPERTISE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "NOUVELLE AFFAIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "PJ AVIS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "PJ POUVOIR"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "PROJET DE PROTOCOLE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "PROJET DE TRANSACTION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "PROTOCOLE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "RAPPORT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "RAPPORT DEFINITIF"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "GESTION",
+    "type": "TRANSACTION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "AR POSTE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "ATTESTATION D ASSURANCE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "COURRIER FRANCHISE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "COURRIER REGLEMENT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DAP (paps)"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO ACCEPTATION INDEMNITES"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO AR"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO BORDEREAU DE VIREMENT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO COPIE CHEQUE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO COURRIER"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO COURRIER RECOURS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO DECLARATION DE SINISTRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO DOSSIER SOUSCRIPTION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO FACTURE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO FICHE PREALABLE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO LETTRE CHEQUE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO NOTE INFORMATIONS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO RAPPORT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO RAPPORT  PRELIMINAIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO RAPPORT DEFINITIF"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO RAPPORT DEFINITIF COMPLEMENTAIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO RAPPORT INTERMEDIAIRE / COMPLEMENTAIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "DO TABLEAU RECOURS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "ETUDES TECHNIQUES"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "HONORAIRES ADHERENT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "MEMOIRE CASSATION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "PJ AVENANT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "PJ AVIS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "PJ AVIS OPPOSITION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "PJ CR DE CHANTIER/DEVIS/PLAN"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "PJ PERMIS DE CONSTRUIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "PJ POUVOIR"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "PROJET DE PROTOCOLE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PAPS",
+    "type": "PROTOCOLE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PIECES",
+    "type": "CONTRAT DE MISSION ASSURE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PIECES",
+    "type": "CR DE CHANTIER/DEVIS/PLAN"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PIECES",
+    "type": "ETAT DE FRAIS ET HONORAIRES"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "ACTE DE PROCEDURE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "ACTE DE PROCEDURE DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "APPEL REQUETE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "ARRET"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "ASSIGNATION FOND"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "ASSIGNATION REFERE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "AVIS PROVISOIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "CITATION FOND"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "CITATION REFERE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "COMMANDEMENT / SAISIE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "COMMANDEMENT / SAISIE / EXECUTOIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "DECLARATION APPEL"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "JUGEMENT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "ORDONNANCE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "ORDONNANCE DE TAXATION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "ORDONNANCE DE TAXATION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "ORDONNANCE DE TAXE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "PJ AVIS OPPOSITION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "POURVOI CASSATION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "PRE-RAPPORT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "PRE-RAPPORT AVIS PROVISOIRE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "PROJET DE TRANSACTION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "RAPPORT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "RAPPORT DEFINITIF"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "RAPPORT DEFINITIF"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "REQUETE APPEL"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "REQUETE FOND"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "REQUETE REFERE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "SIGNIFICATION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "PROCEDURES",
+    "type": "TRANSACTION"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "RECOURS",
+    "type": "COURRIER RECOURS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "RECOURS",
+    "type": "DO ACCEPTATION INDEMNITES"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "RECOURS",
+    "type": "DO COURRIER RECOURS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "RECOURS",
+    "type": "DO FACTURE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "RECOURS",
+    "type": "DO FICHE PREALABLE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "RECOURS",
+    "type": "DO LETTRE CHEQUE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "RECOURS",
+    "type": "DO TABLEAU RECOURS"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "REGLEMENT",
+    "type": "BORDEREAU DE RECETTE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "REGLEMENT",
+    "type": "BORDEREAU DE REGLEMENT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "REGLEMENT",
+    "type": "COURRIER FRANCHISE"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "REGLEMENT",
+    "type": "COURRIER REGLEMENT"
+  },
+  {
+    "famille": "DOCUMENTS PAPS",
+    "cote": "REGLEMENT",
+    "type": "COURRIER REGLEMENT FRANCHISE"
+  },
+  {
+    "famille": "DOCUMENTS PERSONNES",
+    "cote": "COURRIERS",
+    "type": "LETTRE AUTORISATION BANCAIRE"
+  },
+  {
+    "famille": "DOCUMENTS PERSONNES",
+    "cote": "COURRIERS",
+    "type": "LETTRE RAPPEL MOT DE PASSE"
+  },
+  {
+    "famille": "DOCUMENTS PERSONNES",
+    "cote": "CR",
+    "type": "CR RDV RESEAU DEBOUT"
+  },
+  {
+    "famille": "DOCUMENTS PERSONNES",
+    "cote": "GESTION",
+    "type": "AR HONORAIRES"
+  },
+  {
+    "famille": "DOCUMENTS PERSONNES",
+    "cote": "GESTION",
+    "type": "COURRIER DIVERS"
+  },
+  {
+    "famille": "DOCUMENTS PERSONNES",
+    "cote": "GESTION",
+    "type": "COURRIER HONORAIRES"
+  },
+  {
+    "famille": "DOCUMENTS PERSONNES",
+    "cote": "GESTION",
+    "type": "CV"
+  },
+  {
+    "famille": "DOCUMENTS PERSONNES",
+    "cote": "GESTION",
+    "type": "IBAN"
+  },
+  {
+    "famille": "DOCUMENTS PERSONNES",
+    "cote": "GESTION",
+    "type": "MANDAT DE PRELEVEMENT"
+  },
+  {
+    "famille": "DOCUMENTS PERSONNES",
+    "cote": "GESTION",
+    "type": "PLAQUETTE"
+  },
+  {
+    "famille": "DRO",
+    "cote": "AMI",
+    "type": "ATTESTATION ENTREPRISE CHARPENTE"
+  },
+  {
+    "famille": "DRO",
+    "cote": "AMI",
+    "type": "ATTESTATION ENTREPRISE COUVERTURE"
+  },
+  {
+    "famille": "DRO",
+    "cote": "AMI",
+    "type": "ATTESTATION ENTREPRISE ETANCHEITE AIR"
+  },
+  {
+    "famille": "DRO",
+    "cote": "AMI",
+    "type": "ATTESTATION ENTREPRISE GROS OEUVRE"
+  },
+  {
+    "famille": "DRO",
+    "cote": "AMI",
+    "type": "ATTESTATION ENTREPRISE MENUISERIES EXTERIEURES"
+  },
+  {
+    "famille": "DRO",
+    "cote": "AMI",
+    "type": "ATTESTATION REGLEMENTATION THERMIQUE"
+  },
+  {
+    "famille": "DRO",
+    "cote": "AMI",
+    "type": "CONTRAT MOE"
+  },
+  {
+    "famille": "DRO",
+    "cote": "AMI",
+    "type": "ETUDE DE SOL"
+  },
+  {
+    "famille": "DRO",
+    "cote": "AMI",
+    "type": "ETUDE DE STRUCTURE"
+  },
+  {
+    "famille": "DRO",
+    "cote": "AMI",
+    "type": "ETUDE THERMIQUE"
+  },
+  {
+    "famille": "DRO",
+    "cote": "AMI",
+    "type": "PROCES VERBAL DE RECEPTION"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "ACTE DE PROCEDURES DIVERS"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "ATTESTATION ASSURANCE AUTRES"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "ATTESTATION ASSURANCE ENTREPRISE"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "ATTESTATION ASSURANCE MOE"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "ATTESTATIONS"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "AUTRE"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "CONTRAT"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "CONVOCATION"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "DECOMPTE GENERAL DEFINITIF"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "ETUDES TECHNIQUES"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "NOTES HONORAIRES"
+  },
+  {
+    "famille": "DRO",
+    "cote": "DRO",
+    "type": "RECLAMATION"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "CONTRATS",
+    "type": "AVENANT CONTRAT"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "CONTRATS",
+    "type": "CONVENTION SPECIALE"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "CONTRATS",
+    "type": "LETTRE AVENANT"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "ATTESTATION ASSURANCE ENTREPRISE"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "ATTESTATION ASSURANCE PARTICIPANTS"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "ATTESTATION CCRD"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "AUTRE"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "CONSTRUCTEUR NON REALISATEUR (CNR)"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "CONTRAT DE MISSION"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "CONTRAT DE MISSION HORS CONTRAT"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "COUPE GENERALE"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "DECLARATION OUVERTURE CHANTIER"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "DECOMPTE GENERAL ET DÉFINITIF DES TRAVAUX (DGD)"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "DEVIS SIGNE"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "DIVERS HORS CONTRAT"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "DOMMAGES OUVRAGE (DO)"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "IMPRIME CERFA"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "LETTRE DE COMMANDE"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "LISTE DES ENTREPRISES"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "NOTICE DE PRESENTATION"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "ORGANIGRAMME MOE"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "PLAN DE MASSE"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "PV DE RECEPTION"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "RAPPORT ETUDE SOL"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "RAPPORT INITIAL CONTROLEUR"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "TABLEAU REPARTITION HONORAIRES MOE"
+  },
+  {
+    "famille": "GRANDS CHANTIERS",
+    "cote": "GC",
+    "type": "TOUS RISQUES CHANTIER (TRC)"
+  },
+  {
+    "famille": "GRANDS CHANTIERS RCT",
+    "cote": "CONTRATS",
+    "type": "CONDITIONS PARTICULIERES"
+  },
+  {
+    "famille": "GRANDS CHANTIERS RCT",
+    "cote": "CONTRATS",
+    "type": "CONVENTION SPECIALE"
+  },
+  {
+    "famille": "INJONCTION DE PAYER",
+    "cote": "COMPTA-HONO",
+    "type": "DEMANDE DE TITRE EX AU TRIB"
+  },
+  {
+    "famille": "INJONCTION DE PAYER",
+    "cote": "COMPTA-HONO",
+    "type": "DEPOT REQ INJ DE PAYER J.PROX TI TC"
+  },
+  {
+    "famille": "INJONCTION DE PAYER",
+    "cote": "COMPTA-HONO",
+    "type": "EXECUTION HUISSIER"
+  },
+  {
+    "famille": "INJONCTION DE PAYER",
+    "cote": "COMPTA-HONO",
+    "type": "FORMULAIRE D'INJ DE PAYER TC"
+  },
+  {
+    "famille": "INJONCTION DE PAYER",
+    "cote": "COMPTA-HONO",
+    "type": "FORMULAIRE D'INJ DE PAYER TI"
+  },
+  {
+    "famille": "INJONCTION DE PAYER",
+    "cote": "COMPTA-HONO",
+    "type": "FORMULAIRE INJ DE PAYER J PROX"
+  },
+  {
+    "famille": "INJONCTION DE PAYER",
+    "cote": "COMPTA-HONO",
+    "type": "INFO ADH DEPOT REQ INJ DE PAYER"
+  },
+  {
+    "famille": "INJONCTION DE PAYER",
+    "cote": "COMPTA-HONO",
+    "type": "INFORMATION ADH DE LA DELIVRANCE DU TITRE EXECUTOIRE"
+  },
+  {
+    "famille": "INJONCTION DE PAYER",
+    "cote": "COMPTA-HONO",
+    "type": "SIGN ORD D'INJ DE PAYER ADH"
+  },
+  {
+    "famille": "INJONCTION DE PAYER",
+    "cote": "COMPTA-HONO",
+    "type": "SIGN ORD D'INJ DE PAYER HUISSIER"
+  },
+  {
+    "famille": "JUGEMENTS ET RECOURS",
+    "cote": "ACTES",
+    "type": "ACCEP APPEL PAR ADH - ADH"
+  },
+  {
+    "famille": "JUGEMENTS ET RECOURS",
+    "cote": "ACTES",
+    "type": "ACCEPT JUGEMENT ADH"
+  },
+  {
+    "famille": "JUGEMENTS ET RECOURS",
+    "cote": "ACTES",
+    "type": "ACCEPT JUGEMENT AVC"
+  },
+  {
+    "famille": "JUGEMENTS ET RECOURS",
+    "cote": "ACTES",
+    "type": "APPEL PAR ADH - AVC"
+  },
+  {
+    "famille": "JUGEMENTS ET RECOURS",
+    "cote": "ACTES",
+    "type": "APPEL PAR ADVERSAIRE ADH"
+  },
+  {
+    "famille": "MEMO",
+    "cote": "MEMO",
+    "type": "MEMO INTERNE"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "AVENANT"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "COMPTE RENDU DE CHANTIER"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "CONTRAT D'ARCHITECTE"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "COURRIER TIERS"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "DEVIS"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "EXTRAIT K BIS"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "HONORAIRE ADHERENT"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "MEMO"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "PERMIS DE CONSTRUIRE"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "PIECES"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "PLAN"
+  },
+  {
+    "famille": "PIECES",
+    "cote": "PIECES",
+    "type": "PV DE RECEPTION"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "ACTES D'HUISSIERS"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "ARRET CONSEIL D'ETAT"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "ARRET COUR DE CASSATION"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "ARRET DE COUR D'APPEL"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "ASSIGNATION"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "AVIS D'OPPOSITION"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "CONCLUSIONS"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "DECLARATION D'APPEL"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "DECLARATION NON APPEL"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "JUGEMENT"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "JUGEMENT"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "JUGEMENT AVANT DIRE DROIT"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "NOTIFICATION DE POURVOI"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "ORDONNANCE"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "REQUETTE AU FOND"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "SIGNIFICATION"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "ACTES",
+    "type": "TITRE EXECUTOIRE"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "PROCEDURE-CG",
+    "type": "AVIS D'AUDIENCE"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "PROCEDURE-CG",
+    "type": "FIXATION D'AUDIENCE"
+  },
+  {
+    "famille": "PIECES DE PROCEDURES",
+    "cote": "PROCEDURE-CG",
+    "type": "RAPPORT D'EXPERTISE"
+  },
+  {
+    "famille": "RECOUVREMENT D'HONORAIRES",
+    "cote": "COMPTA-HONO",
+    "type": "ABSENCE DE CONTRAT SIGNE LIMITATION DE GARANTIE 83"
+  },
+  {
+    "famille": "RECOUVREMENT D'HONORAIRES",
+    "cote": "COMPTA-HONO",
+    "type": "ABSENCE DE CONTRAT SIGNE LIMITATION DE GARANTIE 89"
+  },
+  {
+    "famille": "RECOUVREMENT D'HONORAIRES",
+    "cote": "COMPTA-HONO",
+    "type": "ABSENCE DE CONTRAT SIGNE LIMITATION DE GARANTIE 95"
+  },
+  {
+    "famille": "RECOUVREMENT D'HONORAIRES",
+    "cote": "COMPTA-HONO",
+    "type": "DEMANDE D'INFORMATIONS COMPLEMENTAIRES 2"
+  },
+  {
+    "famille": "RECOUVREMENT D'HONORAIRES",
+    "cote": "COMPTA-HONO",
+    "type": "MISE EN DEMEURE 2"
+  },
+  {
+    "famille": "RECOUVREMENT D'HONORAIRES",
+    "cote": "COMPTA-HONO",
+    "type": "MISE EN DEMEURE ADRESSEE À SCI"
+  },
+  {
+    "famille": "RECOUVREMENT D'HONORAIRES",
+    "cote": "COMPTA-HONO",
+    "type": "SAISINE DE L'ORDRE"
+  },
+  {
+    "famille": "RECOUVREMENT ORDONNANCE DE TAXE",
+    "cote": "ACTES",
+    "type": "DEMANDE D'INFORMATIONS COMPLEMENTAIRES"
+  },
+  {
+    "famille": "RECOUVREMENT ORDONNANCE DE TAXE",
+    "cote": "ACTES",
+    "type": "INFORMATION DE L'ADH DE LA SAISINE D'HUISSIER"
+  },
+  {
+    "famille": "RECOUVREMENT ORDONNANCE DE TAXE",
+    "cote": "ACTES",
+    "type": "MISE EN DEMEURE"
+  },
+  {
+    "famille": "RECOUVREMENT ORDONNANCE DE TAXE",
+    "cote": "ACTES",
+    "type": "SAISINE D'HUISSIER"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "ACTES",
+    "type": "PROTOCOLE D'ACCORD"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "AVIS DE RECEPTION"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "AVIS DU CONSEIL REGIONAL DE L'ORDRE"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "CERTIFICAT DE DEPOT COURRIER"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "CERTIFICAT DE DEPOT FAX"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "CONFIRMATION ENVOI"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "COURRIER"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "COURRIER ADHERENT"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "COURRIER AVOCAT"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "COURRIER AVOUE"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "COURRIER EXPERT"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "COURRIER HUISSIER"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "COURRIER RETOUR"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "COURRIER2"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "DOCUMENT ANNEXE"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "ENQUETE RISQUE CREDIT"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "ENQUETE RISQUE CREDIT"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "PIECE COMPLEMENTAIRE"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "POUVOIR"
+  },
+  {
+    "famille": "SUIVI AFFAIRE",
+    "cote": "CORRESPONDANCE",
+    "type": "PREUVE LR"
+  },
+  {
+    "famille": "VERIFICATION - REFUS DE GARANTIE",
+    "cote": "CONTRATS",
+    "type": "DECLARATION TARDIVE 83"
+  },
+  {
+    "famille": "VERIFICATION - REFUS DE GARANTIE",
+    "cote": "CONTRATS",
+    "type": "DECLARATION TARDIVE 89"
+  },
+  {
+    "famille": "VERIFICATION - REFUS DE GARANTIE",
+    "cote": "CONTRATS",
+    "type": "HORS DOMAINE D'INTERVENTION 83"
+  },
+  {
+    "famille": "VERIFICATION - REFUS DE GARANTIE",
+    "cote": "CONTRATS",
+    "type": "HORS DOMAINE D'INTERVENTION 89 95"
+  },
+  {
+    "famille": "VERIFICATION - REFUS DE GARANTIE",
+    "cote": "CONTRATS",
+    "type": "INFERIEUR AU SEUIL 83"
+  },
+  {
+    "famille": "VERIFICATION - REFUS DE GARANTIE",
+    "cote": "CONTRATS",
+    "type": "PRESCRIPTION BIENNALE 83"
+  },
+  {
+    "famille": "VERIFICATION - REFUS DE GARANTIE",
+    "cote": "CONTRATS",
+    "type": "PRESCRIPTION BIENNALE 89 95"
+  },
+  {
+    "famille": "VERIFICATION - REFUS DE GARANTIE",
+    "cote": "CONTRATS",
+    "type": "REFUS DIRECTION DES SINISTRES"
+  }
+]
