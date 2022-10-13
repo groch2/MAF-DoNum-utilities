@@ -1,5 +1,6 @@
 import { tmpdir as get_temporary_directory } from 'os'
 import * as fs from 'fs/promises'
+// mettre ici le chemin vers le fichier json qui contient l'objet dont les propriétés sont à lister par ordre alphabétique (le préfix file:// est obligatoire)
 import json_object from 'file://C:/Users/deschaseauxr/Documents/DONUM/document.json' assert { type: 'json' };
 import { randomUUID as get_globally_unique_identifier } from 'crypto'
 import { join as join_path } from 'path'
@@ -10,5 +11,6 @@ const case_insensitive_strings_compare =
 const alphabetically_sorted_object_properties =
   Object.keys(json_object).sort(case_insensitive_strings_compare).join('\r\n')
 await fs.writeFile(temp_file_path, alphabetically_sorted_object_properties)
+// la liste des propriétés est enregistrée dans ce fichier temporaire :
 console.log({ temp_file_path })
 process.exit(0)
