@@ -1,6 +1,6 @@
-import cotes from './tryptiques/cotes.json' assert { type: 'json' }
-import familles from './tryptiques/familles.json' assert { type: 'json' }
-import types_doc from './tryptiques/types.json' assert { type: 'json' }
+import cotes from './cotes.json' assert { type: 'json' }
+import familles from './familles.json' assert { type: 'json' }
+import types_doc from './types.json' assert { type: 'json' }
 import { areStringsEqualsCaseInsensitive } from '../string_compare.mjs'
 
 const famille_text = 'Documents contrat'

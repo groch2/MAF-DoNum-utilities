@@ -1,13 +1,15 @@
-import familles from './tryptiques/familles.json' assert { type: 'json' }
-import cotes from './tryptiques/cotes.json' assert { type: 'json' }
-import types from './tryptiques/types.json' assert { type: 'json' }
+import familles from './familles.json' assert { type: 'json' }
+import cotes from './cotes.json' assert { type: 'json' }
+import types from './types.json' assert { type: 'json' }
+import { areStringsEqualsCaseInsensitive } from '../string_compare.mjs'
 import * as fs from 'fs/promises'
 
 export function localCompareCaseInsensitive(a, b) {
   return a?.localeCompare(b, undefined, { sensitivity: 'accent' });
 }
 
-const tryptiques =
+const wanted_familles = ['DOCUMENTS CONTRAT', 'DOCUMENTS EMOA']
+const donum_valid_tryptiques =
   types.value
     .flatMap(({ code: type_code, coteDocumentId: type_coteDocumentId }) =>
       cotes.value
@@ -24,9 +26,7 @@ const tryptiques =
         localCompareCaseInsensitive(cote_1, cote_2) ||
         localCompareCaseInsensitive(type_1, type_2)
     })
-// console.log(tryptiques)
-await fs.writeFile('C:/Users/deschaseauxr/Documents/DONUM/get_document_properties/tryptiques/tryptiques.json', JSON.stringify(tryptiques, undefined, 2))
+    .filter(({ famille }) => wanted_familles.findIndex(f => areStringsEqualsCaseInsensitive(famille, f)) >= 0)
+console.log(donum_valid_tryptiques)
+await fs.writeFile('C:/Users/deschaseauxr/Documents/Donum/tryptiques/tryptiques.json', JSON.stringify(donum_valid_tryptiques, undefined, 2))
 process.exit(0)
-const tryptiques_samples = ['DOCUMENTS COCOON', 'DOCUMENTS CONTRAT', 'DOCUMENTS EMOA'].map(famille_sample =>
-  tryptiques.find(({ famille }) => areStringsEqualsCaseInsensitive(famille, famille_sample)))
-console.log(tryptiques_samples)
