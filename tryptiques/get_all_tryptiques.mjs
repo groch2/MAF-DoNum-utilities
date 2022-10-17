@@ -1,7 +1,7 @@
 import familles from './familles.json' assert { type: 'json' }
 import cotes from './cotes.json' assert { type: 'json' }
 import types from './types.json' assert { type: 'json' }
-import { areStringsEqualsCaseInsensitive } from '../string_compare.mjs'
+import are_strings_equals_case_insensitive from './string_compare.mjs'
 import * as fs from 'fs/promises'
 
 export function localCompareCaseInsensitive(a, b) {
@@ -26,7 +26,7 @@ const donum_valid_tryptiques =
         localCompareCaseInsensitive(cote_1, cote_2) ||
         localCompareCaseInsensitive(type_1, type_2)
     })
-    .filter(({ famille }) => wanted_familles.findIndex(f => areStringsEqualsCaseInsensitive(famille, f)) >= 0)
+    .filter(({ famille }) => wanted_familles.findIndex(f => are_strings_equals_case_insensitive(famille, f)) >= 0)
 console.log(donum_valid_tryptiques)
 await fs.writeFile('C:/Users/deschaseauxr/Documents/Donum/tryptiques/tryptiques.json', JSON.stringify(donum_valid_tryptiques, undefined, 2))
 process.exit(0)

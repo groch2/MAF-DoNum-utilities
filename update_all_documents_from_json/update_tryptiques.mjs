@@ -1,6 +1,6 @@
 import * as fs from 'fs/promises'
 import json_object from 'file://C:/Users/deschaseauxr/Documents/DONUM/documents.json' assert { type: 'json' };
-import { areStringsEqualsCaseInsensitive } from '../string_compare.mjs'
+import are_strings_equals_case_insensitive from './string_compare.mjs'
 const tryptiques = [
   {
     famille: 'DOCUMENTS COCOON',
@@ -19,7 +19,7 @@ const tryptiques = [
   }
 ]
 json_object.value = json_object.value.map(doc => {
-  const { cote, type } = tryptiques.find(({ famille }) => areStringsEqualsCaseInsensitive(famille, doc.categoriesFamille))
+  const { cote, type } = tryptiques.find(({ famille }) => are_strings_equals_case_insensitive(famille, doc.categoriesFamille))
   return {
     ...doc,
     categoriesCote: cote,
