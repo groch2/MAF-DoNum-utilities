@@ -11,4 +11,4 @@ const document_properties_missing_from_duplication =
   document_properties.filter(
     doc_prop => duplicate_document_properties.findIndex(dupl_prop => are_strings_equals_case_insensitive(doc_prop, dupl_prop)) === -1)
     .sort((a, b) => compare_strings_case_insensitive(a, b))
-console.log({ document_properties_missing_from_duplication })
+console.log(document_properties_missing_from_duplication.join('\n'))
