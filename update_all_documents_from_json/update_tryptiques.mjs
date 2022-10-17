@@ -1,6 +1,6 @@
 import * as fs from 'fs/promises'
 import json_object from 'file://C:/Users/deschaseauxr/Documents/DONUM/documents.json' assert { type: 'json' };
-import are_strings_equals_case_insensitive from './string_compare.mjs'
+import are_strings_equals_case_insensitive from './strings_compare.mjs'
 const tryptiques = [
   {
     famille: 'DOCUMENTS COCOON',

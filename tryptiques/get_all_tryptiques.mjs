@@ -1,7 +1,7 @@
 import familles from './familles.json' assert { type: 'json' }
 import cotes from './cotes.json' assert { type: 'json' }
 import types from './types.json' assert { type: 'json' }
-import are_strings_equals_case_insensitive from './string_compare.mjs'
+import are_strings_equals_case_insensitive from './strings_compare.mjs'
 import * as fs from 'fs/promises'
 
 export function localCompareCaseInsensitive(a, b) {

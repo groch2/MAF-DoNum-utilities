@@ -1,7 +1,7 @@
 import cotes from './cotes.json' assert { type: 'json' }
 import familles from './familles.json' assert { type: 'json' }
 import types_doc from './types.json' assert { type: 'json' }
-import are_strings_equals_case_insensitive from './string_compare.mjs'
+import are_strings_equals_case_insensitive from './strings_compare.mjs'
 
 const famille_text = 'Documents contrat'
 const { familleDocumentId } = familles.find(({ libelle }) => are_strings_equals_case_insensitive(libelle, famille_text))
