@@ -1,17 +1,22 @@
-import test_object from './test_object.json' assert { type: 'json' };
+import document_file_d_attente from '../document_for_file_d_attente.json' assert { type: 'json' };
 
 function flatten_object_properties(object, key1, object_properties) {
-  if (!object || object !== Object(object)) {
+  if (object === null || object === undefined) {
     return;
   }
-  return Object
+  Object
     .keys(object)
     .forEach(key2 => {
-      const keyPath = [key1, key1 ? '.' : '', key2].join('')
-      console.log(keyPath)
-      flatten_object_properties(object[key2], keyPath)
-    });
+      const property_path = [key1, key1 ? '.' : '', key2].join('')
+      if (typeof object[key2] === 'string') {
+        object_properties.push(property_path)
+      } else {
+        flatten_object_properties(object[key2], property_path, object_properties)
+      }
+    })
+  return object_properties
 }
 
 console.clear()
-flatten_object_properties(test_object, '')
+const object_properties = flatten_object_properties(document_file_d_attente, '', [])
+console.log(object_properties)
