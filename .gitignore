@@ -1,7 +1,10 @@
-document.json
-documents.json
-Users_codes_with_documents.txt
-Nb_docs_by_user.html
 *.pdf
 *.png
+document.json
+documents.json
+document_file_d_attente_properties.txt
+document_for_file_d_attente.json
+Nb_docs_by_user.html
+test_object.json
 tryptiques/tryptiques.json
+Users_codes_with_documents.txt

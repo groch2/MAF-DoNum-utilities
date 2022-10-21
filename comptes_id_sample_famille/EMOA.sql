@@ -1,7 +1,15 @@
 use [MAF_NSI]
 go
 
-with Compte ([RowNumber], [CompteID]) as (
+select count([CompteID]) as [nb comptes EMOA]
+from [Personnes].[Compte]
+where [TypeCompteID] in
+(5
+,6
+,18
+,46)
+
+;with Compte ([RowNumber], [CompteID]) as (
 select ROW_NUMBER() OVER(ORDER BY [CompteID] ASC), [CompteID]
 from [Personnes].[Compte]
 where [TypeCompteID] in
