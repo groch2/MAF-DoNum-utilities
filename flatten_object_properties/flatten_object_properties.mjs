@@ -1,7 +1,6 @@
-import document_file_d_attente from '../document_for_file_d_attente.json' assert { type: 'json' };
-// import test_object from './test_object.json' assert { type: 'json' };
+// import document_file_d_attente from '../document_for_file_d_attente.json' assert { type: 'json' }
+import test_object from './test_object.json' assert { type: 'json' }
 import { compare_strings_case_insensitive } from '../strings_compare.mjs'
-
 const wanted_types = new Set(['boolean', 'number', 'string'])
 function flatten_object_properties(object, key_1) {
   return Object
@@ -15,10 +14,10 @@ function flatten_object_properties(object, key_1) {
           flatten_object_properties(_object, property_path) : []
     })
 }
-
 console.clear()
 const object_properties =
-  flatten_object_properties(document_file_d_attente, null)
+  // flatten_object_properties(document_file_d_attente, null)
+  flatten_object_properties(test_object, null)
     .sort((a, b) => compare_strings_case_insensitive(a, b))
-// const object_properties = flatten_object_properties(test_object, '')
+    .join('\n')
 console.log(object_properties)
