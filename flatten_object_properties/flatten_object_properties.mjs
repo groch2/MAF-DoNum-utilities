@@ -1,19 +1,20 @@
-// import document_file_d_attente from '../document_for_file_d_attente.json' assert { type: 'json' }
 import test_object from './test_object.json' assert { type: 'json' }
 import { compare_strings_case_insensitive } from '../strings_compare.mjs'
-const wanted_types = new Set(['boolean', 'number', 'string'])
-function flatten_object_properties(object, key_1) {
+
+const wanted_primitive_types = new Set(['boolean', 'number', 'string'])
+function flatten_object_properties(object, object_path) {
   return Object
     .keys(object)
-    .flatMap(key_2 => {
-      const property_path = [key_1, key_1 ? '.' : '', key_2].join('')
-      const _object = object[key_2]
-      return wanted_types.has(typeof _object) || _object === null ?
+    .flatMap(sub_object_property_key => {
+      const property_path = [object_path, object_path ? '.' : '', sub_object_property_key].join('')
+      const property_value = object[sub_object_property_key]
+      return wanted_primitive_types.has(typeof property_value) || property_value === null ?
         [property_path] :
-        _object !== undefined ?
-          flatten_object_properties(_object, property_path) : []
+        property_value !== undefined ?
+          flatten_object_properties(property_value, property_path) : []
     })
 }
+
 console.clear()
 const object_properties =
   // flatten_object_properties(document_file_d_attente, null)
