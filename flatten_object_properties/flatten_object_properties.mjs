@@ -1,5 +1,6 @@
 import test_object from './test_object.json' assert { type: 'json' }
-import { compare_strings_case_insensitive } from '../strings_compare.mjs'
+
+console.clear()
 
 const wanted_primitive_types = new Set(['boolean', 'number', 'string'])
 function flatten_object_properties(object, object_path) {
@@ -15,9 +16,10 @@ function flatten_object_properties(object, object_path) {
     })
 }
 
-console.clear()
+function compare_strings_case_insensitive(a, b) {
+  a?.localeCompare(b, undefined, { sensitivity: 'accent' })
+}
 const object_properties =
-  // flatten_object_properties(document_file_d_attente, null)
   flatten_object_properties(test_object, null)
     .sort((a, b) => compare_strings_case_insensitive(a, b))
     .join('\n')

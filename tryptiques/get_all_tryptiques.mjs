@@ -1,14 +1,14 @@
 import familles from './familles.json' assert { type: 'json' }
 import cotes from './cotes.json' assert { type: 'json' }
 import types from './types.json' assert { type: 'json' }
-import are_strings_equals_case_insensitive from './strings_compare.mjs'
+import { are_strings_equals_case_insensitive } from 'file://C:/Users/deschaseauxr/Documents/Donum/strings_compare.mjs'
 import * as fs from 'fs/promises'
 
 export function localCompareCaseInsensitive(a, b) {
   return a?.localeCompare(b, undefined, { sensitivity: 'accent' });
 }
 
-const wanted_familles = ['DOCUMENTS CONTRAT', 'DOCUMENTS EMOA']
+const wanted_familles = ['DOCUMENTS CONTRAT', 'DOCUMENTS EMOA', 'DOCUMENTS PERSONNES']
 const donum_valid_tryptiques =
   types.value
     .flatMap(({ code: type_code, coteDocumentId: type_coteDocumentId }) =>
