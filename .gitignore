@@ -8,3 +8,6 @@ Nb_docs_by_user.html
 test_object.json
 tryptiques/tryptiques.json
 Users_codes_with_documents.txt
+duplicate_document/document_origin.json
+duplicate_document/duplicate_request_updated.json
+duplicate_document/duplicate_request.json
