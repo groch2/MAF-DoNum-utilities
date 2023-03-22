@@ -33,7 +33,7 @@ SELECT
 (SELECT MAX([Numéro_de_Demande]) + 1 FROM [dbo].[GED_Editions])
 ,[Nom_du_Document]
 ,[Date_Impression]
-,[Numéro_du_Destinataire]
+,16803
 ,[Cle_du_Destinataire]
 ,[Date_de_la_Demande]
 ,[Heure_de_la_Demande]
@@ -58,5 +58,5 @@ SELECT
 ,[ReadOnly]
 ,[FlagGedIris]
 from [dbo].[GED_Editions]
-where [Numéro_de_Demande] = 1460499
+where [Numéro_de_Demande] = 1460495
 GO

@@ -1,0 +1,35 @@
+USE [Contrat]
+GO
+
+SELECT [Numéro_de_Demande]
+      ,[Nom_du_Document]
+      ,[Date_Impression]
+      ,[Numéro_du_Destinataire]
+      ,[Cle_du_Destinataire]
+      ,[Date_de_la_Demande]
+      ,[Heure_de_la_Demande]
+      ,[Demandeur]
+      ,[Flag_Edition]
+      ,[OLE_Document]
+      ,[Chemin]
+      ,[csocsisi]
+      ,[annesisi]
+      ,[cpopsisi]
+      ,[sinizzid]
+      ,[sinczzid]
+      ,[prpnzzid]
+      ,[prpczzid]
+      ,[polnzzid]
+      ,[polczzid]
+      ,[Fiche_Jurisprudence]
+      ,[Supprime]
+      ,[DateDebut]
+      ,[DateFin]
+      ,[numechan]
+      ,[ReadOnly]
+      ,[FlagGedIris]
+  FROM [Donum].[DocumentsMNKNonTranfere]
+  where [Numéro_de_Demande] in (1460499, 5239342)
+GO
+
+

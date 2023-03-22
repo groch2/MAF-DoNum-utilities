@@ -1,26 +1,33 @@
-import test_object from './test_object.json' assert { type: 'json' }
+import test_object from 'file://C:/Users/deschaseauxr/Documents/Donum/get_document_properties/document.json' assert { type: 'json' }
 
 console.clear()
 
-const wanted_primitive_types = new Set(['boolean', 'number', 'string'])
-function flatten_object_properties(object, object_path) {
-  return Object
-    .keys(object)
-    .flatMap(sub_object_property_key => {
-      const property_path = [object_path, object_path ? '.' : '', sub_object_property_key].join('')
-      const property_value = object[sub_object_property_key]
-      return wanted_primitive_types.has(typeof property_value) || property_value === null ?
-        [property_path] :
-        property_value !== undefined ?
-          flatten_object_properties(property_value, property_path) : []
-    })
+const flatten = function (data) {
+  var result = {};
+  function recurse(cur, prop) {
+    if (Object(cur) !== cur) {
+      result[prop] = cur;
+    } else if (Array.isArray(cur)) {
+      for (var i = 0, l = cur.length; i < l; i++)
+        recurse(cur[i], `${prop}[${i}]`);
+      if (l == 0)
+        result[prop] = [];
+    } else {
+      var isEmpty = true;
+      for (var p in cur) {
+        isEmpty = false;
+        recurse(cur[p], prop ? `${prop}.${p}` : p);
+      }
+      if (isEmpty && prop)
+        result[prop] = {};
+    }
+  }
+  recurse(data, "");
+  return result;
 }
 
-function compare_strings_case_insensitive(a, b) {
-  a?.localeCompare(b, undefined, { sensitivity: 'accent' })
-}
 const object_properties =
-  flatten_object_properties(test_object, null)
-    .sort((a, b) => compare_strings_case_insensitive(a, b))
-    .join('\n')
+  flatten(test_object)
+// .sort((a, b) => compare_strings_case_insensitive(a, b))
+// .join('\n')
 console.log(object_properties)

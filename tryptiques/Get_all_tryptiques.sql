@@ -2,6 +2,7 @@ USE [GEDMAF]
 GO
 
 SELECT
+	[FamilleDocument].[FamilleDocumentId] AS 'Famille id',
 	[FamilleDocument].[Code] AS 'Famille',
 	[CoteDocument].[Code] AS 'Cote',
 	[TypeDocument].[Code] AS 'Type'

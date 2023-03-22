@@ -6,6 +6,7 @@ json_object.value = json_object.value.map((doc) => {
   const { categoriesFamille: famille } = doc
   let index_tryptique_à_utiliser = tryptiques.findIndex((element) => element.famille === famille && !cotes_utilisées.has(`${famille}_${element.cote}`))
   if (index_tryptique_à_utiliser === -1) {
+    [...cotes_utilisées].filter(cote => cote.startsWith(`${famille}_`)).forEach(cote => cotes_utilisées.delete(cote))
     index_tryptique_à_utiliser = tryptiques.findIndex((element) => element.famille === famille)
   }
   const { cote: cote_à_utiliser, type: type_à_utiliser } = tryptiques[index_tryptique_à_utiliser]
