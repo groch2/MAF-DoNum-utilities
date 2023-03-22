@@ -14,46 +14,67 @@ async Task Main()
 			BaseAddress = new Uri("https://api-ged-intra.int.maf.local/v1/Documents/")
 		};
 	const string code_rédacteur = "ROD";
+	var selectDocumentProperties =
+		documentTypeProperties
+			.Select(p => p.Name)
+			.Where(propertyName => propertyName != nameof(DocumentType.QueueStatus));
 	var actual_documents =
 		await httpClient.GetStringAsync(
-			$"?$filter=assigneRedacteur eq '{code_rédacteur}'&$select=documentId,libelle,deposeLe,traiteLe,qualiteValideeLe,qualiteValideeValide,vuLe");
-	var documentType = new {
-		documentId = "",
-		libelle = "",
-		deposeLe = "",
-		traiteLe = "",
-		vuLe = "",
-		qualiteValideeLe = "",
-		qualiteValideeValide = (bool?)null,
-		queueStatus = (DocumentQueueStatus?)null
-	}.GetType();
+			$"?$filter=assigneRedacteur eq '{code_rédacteur}'&$select={string.Join(',', selectDocumentProperties)}");
 	var documents =
 		JsonDocument
 			.Parse(actual_documents)
 			.RootElement.GetProperty("value")
 			.EnumerateArray()
-			.Select(document => JsonSerializer.Deserialize(document, documentType))
-			.Select((dynamic document) =>
+			.Select(document => JsonSerializer.Deserialize<DocumentType>(document, new JsonSerializerOptions { PropertyNameCaseInsensitive = true } ))
+			.Select(document =>
 				new {
-					documentId = document.documentId,
-					libelle = document.libelle,
+					document.DocumentId,
+					document.Libelle,
+					document.CompteId,
 					queueStatus = GetDocumentQueueStatus(document)
 				});
 	documents.Dump();
 }
 
-DocumentQueueStatus GetDocumentQueueStatus(dynamic document) =>
+DocumentQueueStatus GetDocumentQueueStatus(DocumentType document) =>
     document switch {
-        _ when document.traiteLe != null => DocumentQueueStatus.TRAITE,
-        _ when (document.vuLe ?? document.qualiteValideeLe) == null => DocumentQueueStatus.NOUVEAU,
-        _ when document.vuLe != null && document.qualiteValideeLe != null && document.qualiteValideeValide != true => DocumentQueueStatus.INVALIDE,
+        _ when document.TraiteLe != null => DocumentQueueStatus.TRAITE,
+        _ when (document.VuLe ?? document.QualiteValideeLe) == null => DocumentQueueStatus.NOUVEAU,
+        _ when document.VuLe != null && document.QualiteValideeLe != null && document.QualiteValideeValide != true => DocumentQueueStatus.INVALIDE,
         _ => DocumentQueueStatus.A_TRAITER
     };
 
-public enum DocumentQueueStatus
+enum DocumentQueueStatus
 {
     NOUVEAU,
     INVALIDE,
     A_TRAITER,
     TRAITE
 }
+
+record DocumentType(
+	string DocumentId,
+	string Libelle,
+	string DeposeLe,
+	string TraiteLe,
+	string VuLe,
+	string QualiteValideeLe,
+	bool? QualiteValideeValide,
+	DocumentQueueStatus? QueueStatus,
+	int? CompteId);
+
+static readonly CustomTypeProperty[] documentTypeProperties =
+	typeof(DocumentType)
+		.GetProperties()
+		.Select(p =>
+			new CustomTypeProperty(
+				Name: p.Name,
+				Type: p.PropertyType.Name,
+				UnderlyingType:
+					p.PropertyType.IsGenericType &&
+					p.PropertyType.GetGenericTypeDefinition() == typeof(Nullable<>) ?
+						p.PropertyType.GenericTypeArguments[0].Name : null
+			)).ToArray();
+
+record CustomTypeProperty(string Name, string Type, string UnderlyingType);
