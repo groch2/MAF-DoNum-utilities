@@ -1,0 +1,58 @@
+var document = new Document
+{
+	AssigneRedacteur = dto.AssigneRedacteur,
+	CategoriesCote = dto.CategoriesCote,
+	CategoriesFamille = dto.CategoriesFamille,
+	CategoriesTypeDocument = dto.CategoriesTypeDocument,
+	ChantierId = dto.ChantierId,
+	Commentaire = dto.Commentaire,
+	CompteId = dto.CompteId,
+	CoteDocumentId = coteId,
+	DateDocument = dto.DateDocument?.DateTime,
+	Depose = new WorkflowItem
+	{
+		Date = dto.DeposeLe?.DateTime,
+		UserCode = dto.DeposePar,
+		DisplayName = users != null ? !string.IsNullOrWhiteSpace(dto.DeposePar) && users.ContainsKey(dto.DeposePar.Trim()) ? users.GetValueOrDefault(dto.DeposePar.Trim()) : dto.DeposePar : ""
+	},
+	DocumentId = dto.DocumentId,
+	FamilleDocumentId = familleId,
+	Important = dto.Important,
+	Libelle = dto.Libelle,
+	NumeroContrat = dto.NumeroContrat,
+	NumeroGc = dto.NumeroGc,
+	NumeroSinistre = dto.NumeroSinistre,
+	PeriodeValiditeDebut = (dto.PeriodeValiditeDebut != null) ? (DateTime?)dto.PeriodeValiditeDebut.Value.DateTime : null,
+	PeriodeValiditeFin = (dto.PeriodeValiditeFin != null) ? (DateTime?)dto.PeriodeValiditeFin.Value.DateTime : null,
+	QualiteValidee = new QualiteValidationItem
+	{
+		Date = dto.QualiteValideeLe?.DateTime,
+		UserCode = dto.QualiteValideePar,
+		DisplayName = users != null ? !string.IsNullOrWhiteSpace(dto.QualiteValideePar) && users.ContainsKey(dto.QualiteValideePar?.Trim())
+			? users.GetValueOrDefault(dto.QualiteValideePar.Trim()) : dto.QualiteValideePar : "",
+		IsValidate = dto.QualiteValideeValide
+	},
+	ReferenceSecondaire = dto.ReferenceSecondaire,
+	Sens = dto.Sens,
+	SousDossierSinistre = dto.SousDossierSinistre,
+	Statut = dto.Statut,
+	Traite = new WorkflowItem
+	{
+		Date = dto.TraiteLe?.DateTime,
+		UserCode = dto.TraitePar,
+		DisplayName = users != null ? !string.IsNullOrWhiteSpace(dto.TraitePar) && users.ContainsKey(dto.TraitePar?.Trim()) ? users.GetValueOrDefault(dto.TraitePar.Trim()) : dto.TraitePar : ""
+	},
+	TypeDocumentId = typeId,
+	Vu = new WorkflowItem
+	{
+		Date = dto.VuLe?.DateTime,
+		UserCode = dto.VuPar,
+		DisplayName = users != null ? !string.IsNullOrWhiteSpace(dto.VuPar) && users.ContainsKey(dto.VuPar?.Trim()) ? users.GetValueOrDefault(dto.VuPar.Trim()) : dto.VuPar : ""
+	},
+	TypeGarantie = ConvertToTypeGarantie(dto.TypeGarantie)
+};
+if (int.TryParse(dto.AssureurId, NumberStyles.None, CultureInfo.InvariantCulture, out var assureurId))
+{
+	document.AssureurId = assureurId;
+}
+return document;

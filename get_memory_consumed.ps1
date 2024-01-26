@@ -1,1 +1,0 @@
-Get-Process -IncludeUserName | ?{ $_.ProcessName -eq 'w3wp' -and $_.UserName -eq 'MAF_NT\svchomwebDONUM01' } | Select-Object Handles,WS,CPU,Id

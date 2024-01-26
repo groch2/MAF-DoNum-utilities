@@ -1,0 +1,8 @@
+insérer un document
+puis cliquer sur "Ajouter un document"
+core.js:6498 ERROR TypeError: Cannot read properties of undefined (reading 'value')
+    at SafeSubscriber._next (metadata-modal.component.ts:159:35)
+
+les cotes par identifiant ne sont pas disponible dans
+C:\TeamProjects\donum\console-donum\src\app\features\donum\services\search.service.ts
+ligne 197

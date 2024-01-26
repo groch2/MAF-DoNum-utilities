@@ -1,0 +1,16 @@
+USE [GEDMAF]
+GO
+
+WITH NB_DOCUMENTS_BY_COMPTE_ID (COMPTE_ID, NB_DOCUMENTS)
+AS
+(
+	SELECT
+		[compteId],
+		count([DocumentId]) as 'nb documents'
+	FROM [GED].[Document]
+	group by [compteId]
+)
+SELECT *
+FROM NB_DOCUMENTS_BY_COMPTE_ID
+WHERE NB_DOCUMENTS >= 3 AND NB_DOCUMENTS <= 10
+GO

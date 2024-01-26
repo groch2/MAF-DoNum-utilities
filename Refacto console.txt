@@ -1,0 +1,7 @@
+utiliser ngxr pour un magasin de données pour le résultat de recherche
+utiliser la variable static qui contient la couleur par défaut des onglets des côtes
+problème de bi-directional binding :
+http://consoletfs.maf.local/MAF/MAF.GECO/_git/donum?path=%2Fconsole-donum%2Fsrc%2Fapp%2Ffeatures%2Fdonum%2Fcomponents%2Frecherche-donum%2Frecherche-donum.component.html&version=GBdev&line=60&lineEnd=61&lineStartColumn=1&lineEndColumn=1&lineStyle=plain
+utiliser un union type pour représenter l'état d'un document
+supprimer forceActivateSaveButton http://consoletfs.maf.local/MAF/MAF.GECO/_git/donum?path=%2Fconsole-donum%2Fsrc%2Fapp%2Ffeatures%2Fdonum%2Fcomponents%2Fmetadata-modal%2Fmetadata-modal.component.ts&version=GBdev&line=57&lineEnd=58&lineStartColumn=1&lineEndColumn=1&lineStyle=plain
+gérer le nettoyage automatique des subscriptions d'observable avec un subscription conteneure à laquelle on ajoute les "vraies" souscriptions, et dont on dispose à la fin (par exemple à la destruction du composant), plutôt que pipe(takeUntil) car pipe(takeUntil) fait disparaître le type générique de l'observable

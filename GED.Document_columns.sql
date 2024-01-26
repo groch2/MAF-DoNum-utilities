@@ -1,6 +1,0 @@
-use GEDMAF
-go
-select COLUMN_NAME from INFORMATION_SCHEMA.COLUMNS
-where TABLE_SCHEMA = 'GED'
-and TABLE_NAME = 'Document'
-order by COLUMN_NAME

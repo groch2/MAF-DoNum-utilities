@@ -1,0 +1,9 @@
+use GEDMAF
+go
+
+select C.COLUMN_NAME
+from INFORMATION_SCHEMA.COLUMNS C
+where C.TABLE_CATALOG = 'GEDMAF'
+and C.TABLE_SCHEMA = 'GED'
+and C.TABLE_NAME = 'NormalizedDocument'
+order by C.COLUMN_NAME

@@ -13,24 +13,20 @@ var httpClient =
 const string code_rédacteur = "ROD";
 var actual_documents =
 	await httpClient.GetStringAsync(
-		$"?$filter=statut eq 'INDEXE' and assigneRedacteur eq '{code_rédacteur}' and (traitePar eq null or traitePar eq '') and traiteLe eq null&$select=documentId");
+		$"?$filter=assigneRedacteur eq '{code_rédacteur}'&$select=documentId");
 var _document = new { documentId = "" };
-var get_documents_id_list = new Func<JsonElement, IEnumerable<string>>(jsonArray => {
-	var nb_documents = jsonArray.GetArrayLength();
-	return Enumerable.Range(0, nb_documents).Select((index) => {
-		var rawDocument = jsonArray[index].GetRawText();
-		dynamic document = JsonSerializer.Deserialize(rawDocument, _document.GetType());
-		return (string)document.documentId;
-	});
+var get_documents_id_list = new Func<string, IEnumerable<string>>(json_content => {
+	var documentsList = JsonDocument.Parse(json_content).RootElement.GetProperty("value");
+	var nb_documents = documentsList.GetArrayLength();
+	return Enumerable.Range(0, nb_documents).Select(i => documentsList[i].GetProperty("documentId").GetString());
 });
-var array = JsonDocument.Parse(actual_documents).RootElement.GetProperty("value");
-var documents_id_list = get_documents_id_list(array).ToArray();
+var documents_id_list = get_documents_id_list(actual_documents).ToArray();
 
 // fichier json qui contient une version antérieure des documents du rédacteur
 const string previous_rédacteur_documents_file_path = @"C:\Users\deschaseauxr\Documents\DONUM\documents.json";
 var fileContent = File.ReadAllText(previous_rédacteur_documents_file_path);
-var previous_documents = JsonDocument.Parse(fileContent).RootElement.GetProperty("value");
-var previous_documents_id_list = get_documents_id_list(previous_documents).ToArray();
+var previous_documents_id_list = get_documents_id_list(fileContent).ToArray();
+//previous_documents_id_list = new []{ "20221125113056617380186367" };
 
 var documents_id_à_supprimer = documents_id_list.Except(previous_documents_id_list).ToArray();
 if (documents_id_à_supprimer.Length == 0) {
@@ -41,7 +37,7 @@ documents_id_à_supprimer.Dump();
 
 documents_id_à_supprimer = documents_id_à_supprimer.Select(id => $"'{id}'").ToArray();
 var concatenated_documents_id_to_delete = string.Join(',', documents_id_à_supprimer);
-using var connection = new SqlConnection("Server=DNSINTBDDGECO01;Database=GEDMAF;Integrated Security=True");
+using var connection = new SqlConnection("Server=bdd-donum.int.maf.local;Database=GEDMAF;Integrated Security=True");
 connection.Open();
 using var command = connection.CreateCommand();
 command.CommandText = $"DELETE FROM [dbo].[ARCHEAMAF] WHERE [ID_DOC] IN ({concatenated_documents_id_to_delete})";

@@ -6,7 +6,7 @@
   <IncludeLinqToSql>true</IncludeLinqToSql>
 </Query>
 
-using var connection = new SqlConnection("Server = DNSINTBDDGECO01; Database = GEDMAF; Integrated Security = True");
+using var connection = new SqlConnection("Server = bdd-ged.int.maf.local; Database = GEDMAF; Integrated Security = True");
 connection.Open();
 using var command = connection.CreateCommand();
 command.CommandText = @"WITH NB_DOCUMENTS_BY_REDACTEUR (REDACTEUR, NB_DOCUMENTS)

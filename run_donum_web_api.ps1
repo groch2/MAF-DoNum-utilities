@@ -1,2 +1,1 @@
-pushd "C:/TeamProjects/donum/Donum.WebHost.Intranet/bin/Debug/netcoreapp3.1/"
-dotnet "Donum.WebHost.Intranet.dll" --urls=http://localhost:56326/
+dotnet run --project "C:/TeamProjects/donum/Donum.WebHost.Intranet/Donum.WebHost.Intranet.csproj" --urls="https://localhost:44363/"

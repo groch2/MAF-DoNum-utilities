@@ -1,0 +1,8 @@
+Dans DoNum, dans la vue "LISTE DES DOCUMENTS", les documents minikiosque sont affichés dans le tableau du bloc "Résultat" :
+	Après une recherche lancée en cliquant sur le bouton "RECHERCHER" :
+		Si un compte id est renseigné dans le champ "Personne / Compte" ET le type de compte du compte sélectionné est rattaché à la famille "contrat" ou bien à la famille "EMOA"
+		OU BIEN
+		Un numéro de chantier est renseigné dans le champ "Numéro chantier" du bloc "Recherche avancée"
+	Au clic sur l'onglet vertical MAF
+	Au clic sur l'onglet vertical "Documents contrat"
+	Au clic sur l'onglet vertical "Documents EMOA"

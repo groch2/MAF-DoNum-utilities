@@ -3,9 +3,8 @@
   <IncludeLinqToSql>true</IncludeLinqToSql>
 </Query>
 
-using var connection = new SqlConnection("Server=DNSINTBDDGECO01;Database=GEDMAF;Integrated Security=True");
+using var connection = new SqlConnection("Server=bdd-ged.int.maf.local;Database=GEDMAF;Trusted_Connection=True;");
 connection.Open();
-new { ConnectionState = connection.State }.Dump();
 var command = connection.CreateCommand();
 command.CommandText = @"SELECT TOP 1 [ID_DOC] FROM [dbo].[ARCHEAMAF]";
 var reader = await command.ExecuteReaderAsync();

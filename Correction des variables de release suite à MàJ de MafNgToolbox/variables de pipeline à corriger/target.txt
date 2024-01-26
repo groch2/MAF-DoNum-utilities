@@ -1,0 +1,8 @@
+AppSettings.ApiEndpoints.GcApiEndpoint
+$(Url_Gc_Intra_Api)
+AppSettings.ConsoleDoNumFileAttenteUrl
+https://cons-donum-intra.$(Env_Code).maf.local/fileAttente?userCode=
+gecoCompteUrlFormat
+$(Url_Geco_Shell_Intra)/#/GECO/Main/GestionContrat?Compte={compteId}
+gecoContratUrlFormat
+$(Url_Geco_Shell_Intra)/#/GECO/Main/GestionContrat?Contrat={contratId}

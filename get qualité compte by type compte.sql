@@ -1,12 +1,9 @@
-USE [MAF_NSI]
-GO
-
-SELECT
-	[TypeCompteId]
-	,tc.[Name] as ' type compte name'
-	,tc.[QualiteCompteId]
-	,qc.[Name] as 'qualité compte name'
-FROM [RefMaf].[TypeCompte] tc
-join [RefMaf].[QualiteCompte] qc
-on tc.QualiteCompteId = qc.QualiteCompteId
+SELECT TOP 100
+	[CompteID]
+	,[QualiteCompte].[QualiteCompteId]
+FROM [MAF_NSI].[Personnes].[Compte]
+JOIN [MAF_NSI].[RefMaf].[TypeCompte]
+ON [Compte].[TypeCompteID] = [TypeCompte].[TypeCompteId]
+JOIN [MAF_NSI].[RefMaf].[QualiteCompte]
+ON [TypeCompte].[QualiteCompteId] = [QualiteCompte].[QualiteCompteId]
 GO

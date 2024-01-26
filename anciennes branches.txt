@@ -1,0 +1,4 @@
+Deleted branch feature/overlay_desactivation_sur_formulaire_details_document_pendant_traitement (was d929313).
+Deleted branch bugfix/navigation_dans_formulaire_details_document_dans_l_ordre_de_la_boite_statut_document_ORIGINAL (was 1d36b18).
+Deleted branch bugfix/navigation_dans_formulaire_details_document_dans_l_ordre_de_la_boite_statut_document_SAUVEGARDE (was eaa1bfe).
+Deleted branch bugfix/navigation_dans_formulaire_details_document_dans_l_ordre_de_la_boite_statut_document (was 949441c).

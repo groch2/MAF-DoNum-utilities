@@ -1,0 +1,85 @@
+                      <td *ngIf="documents.isMiniKiosqueDoc">
+                        <img (click)="openImportDocumentFromMnkModal(documents)"
+                          src="../../../../../../assets/images/icons/import.png" />
+                      </td>
+                      <td class="th-content" *ngIf="!documents.isMiniKiosqueDoc">
+                        <img class="" (click)="openMetadataModal(rowIndex)"
+                          src="../../../../../../assets/images/icons/metadonnees.png" />
+                      </td>
+                      <td class="th-content align-middle">
+                        <i *ngIf="documents.important" class="fa fas fa-exclamation" style="color: red;"></i>
+                      </td>
+                      <td class="th-content align-middle">
+                        <span>
+                          <i [ngClass]="(!this.documents.commentaire) ? 'faded-2' : null" class="fas fa-comment-alt"
+                            (click)="openCommentModal(rowIndex)"></i>
+                        </span>
+                      </td>
+                      <td class="th-content align-middle">
+                        <span>{{ documents.sens?.toUpperCase() == "RECEPTION" ? "E" : documents.sens?.toUpperCase() ==
+                          "EMISSION" ? "S" : null
+                          }}</span>
+                      </td>
+                      <td class="th-content align-middle">
+                        <img (click)="downloadDocument(documents)"
+                          src="../../../../../../assets/images/icons/document.png" />
+                      </td>
+                      <td class="th-content align-middle" [class]="getDivStyle(documents.documentQueueStatus)">
+                        <span>{{ documents.documentQueueStatus }}</span>
+                      </td>
+                      <td class="th-content" [pTooltip]="documents.libelle" (click)="openLabelModal(rowIndex)">
+                        {{ documents.libelle }}
+                      </td>
+                      <td class="th-content">
+                        {{ documents.dateDocument | date: 'shortDate' }}
+                      </td>
+                      <td class="th-content"
+                        [style.color]="isDateIntegrationEnRetard(documents) ? 'red !important' : ''"
+                        [pTooltip]="getDateIntegrationEnRetardTooltipMessage(documents)" tooltipPosition="bottom">
+                        {{ documents.depose?.date | date: 'shortDate' }}
+                      </td>
+                      <td class="th-content">
+                        {{ documents.periodeValiditeDebut | date: 'shortDate' }}
+                      </td>
+                      <td class="th-content">
+                        {{ documents.periodeValiditeFin | date: 'shortDate' }}
+                      </td>
+                      <td class="th-content">
+                        <a href="{{ getGecoCompteUrlByCompteId(documents.compteId) }}" target="_blank"
+                          rel="noopener noreferrer">
+                          <i style="display: block">{{ documents.compteId }}</i>
+                        </a>
+                      </td>
+                      <td class="th-content">
+                        {{ documents.personneId }}
+                      </td>
+                      <td class="th-content">
+                        <a href="{{ getGecoContratUrlByContratId(documents.contratId) }}" target="_blank"
+                          rel="noopener noreferrer">
+                          <i style="display: block">{{ documents.numeroContrat }}</i>
+                        </a>
+                      </td>
+                      <td class="th-content">
+                        {{ documents.codeProduit }}
+                      </td>
+                      <td class="th-content">
+                        {{ documents.assigneRedacteur }}
+                      </td>
+                      <td class="th-content" *ngIf="!searchService.hideFamillesColumn">
+                        {{ documents.categoriesFamille }}
+                      </td>
+                      <td class="th-content" *ngIf="!searchService.hideCotesColumn">
+                        {{ documents.categoriesCote }}
+                      </td>
+                      <td class="th-content" *ngIf="!searchService.hideTypesColumn">
+                        {{ documents.categoriesTypeDocument }}
+                      </td>
+                      <td class="th-content">
+                        {{ documents.numeroGc }}
+                      </td>
+                      <td class="th-content">
+                        {{ documents.chantierId }}
+                      </td>
+                      <td class="th-content">
+                        {{ documents.chantierLibelle }}
+                      </td>

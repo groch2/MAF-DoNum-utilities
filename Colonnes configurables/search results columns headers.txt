@@ -1,0 +1,108 @@
+                      <th class="align-middle th-content" [ngClass]="'c' + coteCodeCouleur">
+                      </th>
+                      <th class="align-middle th-content" [ngClass]="'c' + coteCodeCouleur">
+                        !
+                      </th>
+                      <th class="align-middle th-content" [ngClass]="'c' + coteCodeCouleur">
+                        <i class="fas fa-comment-alt"></i>
+                      </th>
+                      <th class="align-middle th-content" pSortableColumn="sens" [ngClass]="'c' + coteCodeCouleur">
+                        E/S
+                        <p-sortIcon field="sens"></p-sortIcon>
+                      </th>
+                      <th class=" align-middle th-content" [ngClass]="'c' + coteCodeCouleur">
+                      </th>
+                      <th class="align-middle th-content" pSortableColumn="statut" [ngClass]="'c' + coteCodeCouleur">
+                        Statut
+                        <p-columnFilter type="text" field="documentQueueStatus" display="menu"></p-columnFilter>
+                        <p-sortIcon field="statut"></p-sortIcon>
+                      </th>
+                      <th class="align-middle th-content" pSortableColumn="libelle" [ngClass]="'c' + coteCodeCouleur">
+                        Libellé
+                        <p-columnFilter type="text" field="libelle" display="menu"></p-columnFilter>
+                        <p-sortIcon field="libelle"></p-sortIcon>
+                      </th>
+                      <th class=" align-middle th-content" pSortableColumn="dateDocument"
+                        [ngClass]="'c' + coteCodeCouleur">
+                        Date Document
+                        <p-sortIcon field="dateDocument"></p-sortIcon>
+                      </th>
+                      <th class=" align-middle th-content" pSortableColumn="dateIntegration"
+                        [ngClass]="'c' + coteCodeCouleur">
+                        Date Intégration
+                        <p-sortIcon field="dateIntegration"></p-sortIcon>
+                      </th>
+                      <th class=" align-middle th-content" pSortableColumn="periodeValiditeDebut"
+                        [ngClass]="'c' + coteCodeCouleur">
+                        Att. du
+                        <p-sortIcon field="periodeValiditeDebut"></p-sortIcon>
+                      </th>
+                      <th class=" align-middle th-content" pSortableColumn="periodeValiditeFin"
+                        [ngClass]="'c' + coteCodeCouleur">
+                        Att. au
+                        <p-sortIcon field="periodeValiditeFin"></p-sortIcon>
+                      </th>
+                      <th class="align-middle th-content" pSortableColumn="compteId" [ngClass]="'c' + coteCodeCouleur">
+                        Compte Id
+                        <p-columnFilter type="text" field="compteId" display="menu"></p-columnFilter>
+                        <p-sortIcon field="compteId"></p-sortIcon>
+                      </th>
+                      <th class="align-middle th-content" pSortableColumn="personneId"
+                        [ngClass]="'c' + coteCodeCouleur">
+                        Personne Id
+                        <p-columnFilter type="text" field="personneId" display="menu"></p-columnFilter>
+                        <p-sortIcon field="personneId"></p-sortIcon>
+                      </th>
+                      <th class="align-middle th-content" pSortableColumn="numeroContrat"
+                        [ngClass]="'c' + coteCodeCouleur">
+                        N° contrat
+                        <p-columnFilter type="text" field="numeroContrat" display="menu"></p-columnFilter>
+                        <p-sortIcon field="numeroContrat"></p-sortIcon>
+                      </th>
+                      <th class="align-middle th-content" pSortableColumn="codeProduit"
+                        [ngClass]="'c' + coteCodeCouleur">
+                        Produit
+                        <p-columnFilter type="text" field="codeProduit" display="menu"></p-columnFilter>
+                        <p-sortIcon field="codeProduit"></p-sortIcon>
+                      </th>
+                      <th class="align-middle th-content" pSortableColumn="assigneRedacteur"
+                        [ngClass]="'c' + coteCodeCouleur">
+                        Assigné à
+                        <p-columnFilter type="text" field="assigneRedacteur" display="menu"></p-columnFilter>
+                        <p-sortIcon field="assigneRedacteur"></p-sortIcon>
+                      </th>
+                      <th class="align-middle th-content" *ngIf="!searchService.hideFamillesColumn"
+                        [ngClass]="'c' + coteCodeCouleur">
+                        Famille
+                        <p-columnFilter type="text" field="categoriesFamille" display="menu"></p-columnFilter>
+                        <p-sortIcon field="categoriesFamille"></p-sortIcon>
+                      </th>
+                      <th class="align-middle th-content" pSortableColumn="categoriesCote"
+                        *ngIf="!searchService.hideCotesColumn" [ngClass]="'c' + coteCodeCouleur">
+                        Cote
+                        <p-columnFilter type="text" field="categoriesCote" display="menu"></p-columnFilter>
+                        <p-sortIcon field="categoriesCote"></p-sortIcon>
+                      </th>
+                      <th class="align-middle th-content" pSortableColumn="categoriesTypeDocument"
+                        *ngIf="!searchService.hideTypesColumn" [ngClass]="'c' + coteCodeCouleur">
+                        Type Doc
+                        <p-columnFilter type="text" field="categoriesTypeDocument" display="menu"></p-columnFilter>
+                        <p-sortIcon field="categoriesTypeDocument"></p-sortIcon>
+                      </th>
+                      <th class=" align-middle th-content" pSortableColumn="numeroGc" [ngClass]="'c' + coteCodeCouleur">
+                        Numero GC
+                        <p-columnFilter type="text" field="numeroGc" display="menu"></p-columnFilter>
+                        <p-sortIcon field="numeroGc"></p-sortIcon>
+                      </th>
+                      <th class="align-middle th-content" pSortableColumn="chantierId"
+                        [ngClass]="'c' + coteCodeCouleur">
+                        N° chantier
+                        <p-columnFilter type="text" field="chantierId" display="menu"></p-columnFilter>
+                        <p-sortIcon field="chantierId"></p-sortIcon>
+                      </th>
+                      <th class=" align-middle th-content" pSortableColumn="chantierLibelle"
+                        *ngIf="!searchService.hideTypesColumn" [ngClass]="'c' + coteCodeCouleur">
+                        Libellé chantier
+                        <p-columnFilter type="text" field="chantierLibelle" display="menu"></p-columnFilter>
+                        <p-sortIcon field="chantierLibelle"></p-sortIcon>
+                      </th>
