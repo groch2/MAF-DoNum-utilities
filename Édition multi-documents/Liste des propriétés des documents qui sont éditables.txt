@@ -1,0 +1,15 @@
+compte
+personne
+assigné à
+numéro contrat
+numéro chantier
+numéro GC
+assureur
+type de garantie
+date de début de validité juridique
+date de fin de validité juridique
+commentaire
+statut d'importance
+sens
+
+multi-documents-edit-workflow-status
