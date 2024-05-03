@@ -3,6 +3,7 @@
   <Namespace>Microsoft.AspNetCore.Http</Namespace>
   <Namespace>Microsoft.Extensions.DependencyInjection</Namespace>
   <Namespace>System.Net.Http</Namespace>
+  <Namespace>System.Net.Http.Json</Namespace>
   <Namespace>System.Threading.Tasks</Namespace>
   <IncludeAspNet>true</IncludeAspNet>
 </Query>
@@ -19,7 +20,9 @@ builder
 					builder => {
 						builder
 							.WithOrigins(
-								"http://localhost:4200");
+								"http://localhost:4200")
+							.AllowAnyHeader()
+							.AllowAnyMethod();
 					}));
 var app = builder.Build();
 
@@ -30,16 +33,10 @@ var donumWebApiClient =
 
 RequestDelegate requestDelegate =
 	async (HttpContext context) => {
-		var uriString =
-			string.Concat(
-				context.Request.Path,
-				context.Request.QueryString);
-		var uri = 
-			new Uri(
-				uriString: uriString,
-				uriKind: UriKind.Relative);
+		var uri = getRelativeUriFromHttpRequest(context.Request);
 		using var response =
 			await donumWebApiClient.GetAsync(uri);
+		response.EnsureSuccessStatusCode();
 		var responseContent =
 			await response.Content.ReadAsStringAsync();
 		await context.Response.WriteAsync(responseContent);
@@ -55,7 +52,35 @@ Enumerable
 				.Select(n => $"{{level_{n + 1}}}")))	
 	.ToList()
 	.ForEach(path => app.MapGet($"/{path}", requestDelegate));
+	
+app.MapPut(
+	"/api/documents/updatedocument",
+	async (HttpContext context) => {
+		var uri = getRelativeUriFromHttpRequest(context.Request);
+		using var reader = new StreamReader(context.Request.Body);
+		var requestContent = await reader.ReadToEndAsync();
+		new { requestContent }.Dump();
+		var jsonJsonContent = JsonContent.Create(requestContent);
+		using var response =
+			await donumWebApiClient.PutAsync(uri, jsonJsonContent);
+		response.EnsureSuccessStatusCode();
+		var responseContent =
+			await response.Content.ReadAsStringAsync();
+		await context.Response.WriteAsync(responseContent);
+	});
 
 app.UseCors(MyPolicy);
 
 app.Run();
+
+Uri getRelativeUriFromHttpRequest(HttpRequest request) {
+	var uriString =
+		string.Concat(
+			request.Path,
+			request.QueryString);
+	var uri = 
+		new Uri(
+			uriString: uriString,
+			uriKind: UriKind.Relative);
+	return uri;
+}
