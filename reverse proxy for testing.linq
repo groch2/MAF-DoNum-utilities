@@ -47,7 +47,7 @@ Enumerable
 		string.Join('/',
 			Enumerable
 				.Range(0, n)
-				.Select(n => $"{{level_{n + 1}}}")))	
+				.Select(n => $"{{level_{n + 1}}}")))
 	.ToList()
 	.ForEach(
 		path =>
@@ -64,13 +64,13 @@ Enumerable
 					await context.Response.WriteAsync(responseContent);
 				}
 			));
-	
+
 app.MapPut(
 	"/api/documents/updatedocument",
 	async (HttpContext context) => {
 		var uri = getRelativeUriFromHttpRequest(context.Request);
 		using var reader = new StreamReader(context.Request.Body);
-		var requestContentRaw = 
+		var requestContentRaw =
 			await reader.ReadToEndAsync();
 		var requestContentJson =
 			System.Text.Json.JsonDocument.Parse(requestContentRaw);
@@ -90,7 +90,7 @@ app.MapPost(
 		var uri = getRelativeUriFromHttpRequest(context.Request);
 
 		var multipartFormDataContent = new MultipartFormDataContent();
-		
+
 		var file = context.Request.Form.Files[0];
 		using var readStream = file.OpenReadStream();
 	    using var fileContent = new StreamContent(readStream);
@@ -100,11 +100,11 @@ app.MapPost(
 			content: fileContent,
 			name: "attachements",
 			fileName: file.FileName);
-  
+
 		var formUrlEncodedContent =
 			new FormUrlEncodedContent(
 				context.Request.Query.Select(
-					item => new KeyValuePair<string,string>(item.Key, item.Value)));	  
+					item => new KeyValuePair<string,string>(item.Key, item.Value)));
 	    multipartFormDataContent.Add(formUrlEncodedContent);
 
 		using var response =
@@ -124,7 +124,7 @@ Uri getRelativeUriFromHttpRequest(HttpRequest request) {
 		string.Concat(
 			request.Path,
 			request.QueryString);
-	var uri = 
+	var uri =
 		new Uri(
 			uriString: uriString,
 			uriKind: UriKind.Relative);
