@@ -74,6 +74,42 @@ app.MapPut(
 		await context.Response.WriteAsync(responseContent);
 	});
 
+app.MapPost(
+	"/api/documents/createdocument",
+	async (HttpContext context) => {
+		context.Request.Query.Dump();
+		var uri = getRelativeUriFromHttpRequest(context.Request);
+
+		var multipartFormDataContent = new MultipartFormDataContent();
+		
+		new { context.Request.Form.Files }.Dump();
+		var file = context.Request.Form.Files[0];
+		using var readStream = file.OpenReadStream();
+	    using var fileContent = new StreamContent(readStream);
+	    fileContent.Headers.ContentType =
+			System.Net.Http.Headers.MediaTypeHeaderValue.Parse(file.ContentType);
+		new { fileContent, file.FileName }.Dump();
+	    multipartFormDataContent.Add(
+			content: fileContent,
+			name: "file",
+			fileName: file.FileName);
+  
+		var formUrlEncodedContent =
+			new FormUrlEncodedContent(
+				context.Request.Query.Select(
+					item => new KeyValuePair<string,string>(item.Key, item.Value)));	  
+	    multipartFormDataContent.Add(formUrlEncodedContent);
+		
+		new { multipartFormDataContent }.Dump();
+
+		using var response =
+			await donumWebApiClient.PostAsync(uri, multipartFormDataContent);
+		response.EnsureSuccessStatusCode();
+		var responseContent =
+			await response.Content.ReadAsStringAsync();
+		await context.Response.WriteAsync(responseContent);
+	});
+
 app.UseCors(MyPolicy);
 
 app.Run();
