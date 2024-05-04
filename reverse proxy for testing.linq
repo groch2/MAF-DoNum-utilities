@@ -98,7 +98,7 @@ app.MapPost(
 			System.Net.Http.Headers.MediaTypeHeaderValue.Parse(file.ContentType);
 	    multipartFormDataContent.Add(
 			content: fileContent,
-			name: "attachements",
+			name: file.Name,
 			fileName: file.FileName);
 
 		var formUrlEncodedContent =
