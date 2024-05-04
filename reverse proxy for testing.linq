@@ -31,6 +31,15 @@ var donumWebApiClient =
 		BaseAddress = new Uri("https://localhost:44363/")
 	};
 
+app.MapGet(
+	"/api/documents",
+	async (HttpContext context) => {
+		var responseContent =
+			File.ReadAllText(
+				@"C:\Users\deschaseauxr\Documents\Donum\Gestion DoNum search result\1.json");
+		await context.Response.WriteAsync(responseContent);
+	});
+
 Enumerable
 	.Range(0, 7)
 	.Reverse()
