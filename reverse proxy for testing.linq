@@ -31,17 +31,6 @@ var donumWebApiClient =
 		BaseAddress = new Uri("https://localhost:44363/")
 	};
 
-RequestDelegate requestDelegate =
-	async (HttpContext context) => {
-		var uri = getRelativeUriFromHttpRequest(context.Request);
-		using var response =
-			await donumWebApiClient.GetAsync(uri);
-		response.EnsureSuccessStatusCode();
-		var responseContent =
-			await response.Content.ReadAsStringAsync();
-		await context.Response.WriteAsync(responseContent);
-	};
-
 Enumerable
 	.Range(0, 7)
 	.Reverse()
@@ -51,18 +40,34 @@ Enumerable
 				.Range(0, n)
 				.Select(n => $"{{level_{n + 1}}}")))	
 	.ToList()
-	.ForEach(path => app.MapGet($"/{path}", requestDelegate));
+	.ForEach(
+		path =>
+			app.MapGet(
+				$"/{path}",
+				async (HttpContext context) => {
+					var originalRequestAddress =
+						getRelativeUriFromHttpRequest(context.Request);
+					using var response =
+						await donumWebApiClient.GetAsync(originalRequestAddress);
+					response.EnsureSuccessStatusCode();
+					var responseContent =
+						await response.Content.ReadAsStringAsync();
+					await context.Response.WriteAsync(responseContent);
+				}
+			));
 	
 app.MapPut(
 	"/api/documents/updatedocument",
 	async (HttpContext context) => {
 		var uri = getRelativeUriFromHttpRequest(context.Request);
 		using var reader = new StreamReader(context.Request.Body);
-		var requestContent = await reader.ReadToEndAsync();
-		new { requestContent }.Dump();
-		var jsonJsonContent = JsonContent.Create(requestContent);
+		var requestContentRaw = 
+			await reader.ReadToEndAsync();
+		var requestContentJson =
+			System.Text.Json.JsonDocument.Parse(requestContentRaw);
+		var jsonContent = JsonContent.Create(requestContentJson);
 		using var response =
-			await donumWebApiClient.PutAsync(uri, jsonJsonContent);
+			await donumWebApiClient.PutAsync(uri, jsonContent);
 		response.EnsureSuccessStatusCode();
 		var responseContent =
 			await response.Content.ReadAsStringAsync();
