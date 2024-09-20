@@ -5,13 +5,11 @@
 </Query>
 
 var httpClient =
-	new HttpClient {
-		BaseAddress = new Uri("https://api-ged-intra.int.maf.local/v2/Documents/")
-	};
+	new HttpClient { BaseAddress = new Uri("https://api-ged-intra.int.maf.local/v2/Documents/") };
 const string userCode = "ROD";
 var documents_json =
 	await httpClient
-		.GetStringAsync($"?$filter=statut eq 'INDEXE' and assigneRedacteur eq '{userCode}' and (traitePar eq null or traitePar eq '') and traiteLe eq null");
+		.GetStringAsync($"?$filter=statut eq 'INDEXE' and assigneRedacteur eq '{userCode}'");
 var jsonSerializerOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 JsonDocument
 	.Parse(documents_json)
@@ -20,5 +18,28 @@ JsonDocument
 	.EnumerateArray()
 	.Select(json =>
 		JsonSerializer.Deserialize<MAF.GED.Domain.Model.Document>(json, jsonSerializerOptions))
-	.Select(document => document.DocumentId)
+	.Select(document => 
+		new {
+			document.DocumentId,
+			document.Libelle,
+			DeposeLe = GetDateOnly(document.DeposeLe),
+			document.DeposePar,
+			VuLe = GetDateOnly(document.VuLe),
+			document.VuPar,
+			QualiteValideeLe = GetDateOnly(document.QualiteValideeLe),
+			document.QualiteValideePar,
+			document.QualiteValideeValide,
+			TraiteLe = GetDateOnly(document.TraiteLe),
+			document.TraitePar,
+			ModifieLe = GetDateOnly(document.ModifieLe),
+			document.ModifiePar,
+			document.NumeroContrat,
+			document.ChantierId,
+			document.TypeGarantie,
+			document.AssureurId,
+			document.CompteId,
+			document.Sens,
+		})
 	.Dump();
+static DateOnly? GetDateOnly(DateTime? date) =>
+	date.HasValue ? DateOnly.FromDateTime(date.Value) : null;

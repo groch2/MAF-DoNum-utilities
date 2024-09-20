@@ -1,5 +1,7 @@
-*.pdf
-*.png
+**.pdf
+**.png
+**.docx
+**.xlsx
 document.json
 documents.json
 document_file_d_attente_properties.txt
@@ -13,3 +15,6 @@ duplicate_document/duplicate_request_updated.json
 duplicate_document/duplicate_request.json
 update_all_documents_from_json/test.json
 Gestion DoNum search result/documents_1.7z
+documents_id_list.txt
+documents\ de\ test\ d'insertion/
+Gestion\ DoNum\ search\ result/
