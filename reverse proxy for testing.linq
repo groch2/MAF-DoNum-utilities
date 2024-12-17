@@ -9,7 +9,7 @@
 </Query>
 
 var builder = WebApplication.CreateBuilder();
-const string MyPolicy = "allow localhost 4200";
+const string MyPolicy = "_myAllowSpecificOrigins";
 builder
 	.Services
 	.AddCors(
@@ -19,8 +19,7 @@ builder
 					name: MyPolicy,
 					builder => {
 						builder
-							.WithOrigins(
-								"http://localhost:4200")
+							.AllowAnyOrigin()
 							.AllowAnyHeader()
 							.AllowAnyMethod();
 					}));
@@ -36,7 +35,7 @@ app.MapGet(
 	async (HttpContext context) => {
 		var responseContent =
 			File.ReadAllText(
-				@"C:\Users\deschaseauxr\Documents\Donum\Gestion DoNum search result\1.json");
+				@"C:\Users\deschaseauxr\Documents\Donum\Gestion DoNum search result\3.json");
 		await context.Response.WriteAsync(responseContent);
 	});
 
@@ -54,11 +53,15 @@ Enumerable
 			app.MapGet(
 				$"/{path}",
 				async (HttpContext context) => {
+					new { original_request_headers = context.Request.Headers }.Dump();
 					var originalRequestAddress =
 						getRelativeUriFromHttpRequest(context.Request);
 					using var response =
 						await donumWebApiClient.GetAsync(originalRequestAddress);
 					response.EnsureSuccessStatusCode();
+					new { original_response_header = response.Headers }.Dump();
+					//context.Response.ContentType = response.Headers.First(header => header.Key == "ContentType");
+					context.Response.ContentType = "application/json; charset=utf-8";
 					var responseContent =
 						await response.Content.ReadAsStringAsync();
 					await context.Response.WriteAsync(responseContent);

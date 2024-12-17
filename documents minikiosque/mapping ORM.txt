@@ -1,0 +1,11 @@
+Chemin	Chemin
+Date_de_la_Demande	DemandeDate
+Demandeur	Demandeur
+Nom_du_Document	NomDocument
+numechan	NumeroChantier
+Numéro_de_Demande	NumeroDemande
+Numéro_du_Destinataire	NumeroDestinataire
+polczzid	LettreCleContrat
+polnzzid	NumeroContrat
+sinizzid	SinistreId
+Supprime	Supprime

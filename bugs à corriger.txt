@@ -1,0 +1,3 @@
+À l'ouverture du formulaire de transfert de document minikiosque, Le composant utilisateur-picker n'affiche pas le rédacteur auquel le nouveau document devra être affecté. Il faut corriger le composant utilisateur-picker pour qu'il soit utilisable dans un reactive form Angular (il faut reprendre ce qui a été fait pour le composant personne-or-compte-picker (en moins complexe)).
+
+dans les résultats de recherche de la vue "Gestion du DoNum", désactiver la colonne "commentaires" pour les documents minikiosques

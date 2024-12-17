@@ -9,7 +9,8 @@ var httpClient =
 const string userCode = "ROD";
 var documents_json =
 	await httpClient
-		.GetStringAsync($"?$filter=statut eq 'INDEXE' and categoriesFamille in ('DOCUMENTS CONTRAT','DOCUMENTS EMOA','DOCUMENTS PERSONNES') and assigneRedacteur eq '{userCode}'&$orderby=documentId desc");
+		.GetStringAsync($"?$filter=statut eq 'INDEXE' and (categoriesFamille eq 'DOCUMENTS CONTRAT' or categoriesFamille eq 'DOCUMENTS EMOA' or categoriesFamille eq 'DOCUMENTS PERSONNES') and assigneRedacteur eq '{userCode}'&$orderby=documentId desc");
+var jsonSerializerOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 var documents =
 	JsonDocument
 		.Parse(documents_json)
@@ -22,6 +23,7 @@ var documents =
 				//AssigneRedacteur = jsonNode["assigneRedacteur"]?.ToString(),
 				DocumentId = jsonNode["documentId"]?.ToString(),
 				Libelle = jsonNode["libelle"]?.ToString(),
+				NumeroContrat = jsonNode["numeroContrat"]?.ToString(),
 				//TypeGarantie = jsonNode["typeGarantie"]?.ToString(),
 				//FichierNom = jsonNode["fichierNom"]?.ToString(),
 				Famille = jsonNode["categoriesFamille"]?.ToString(),
@@ -36,9 +38,8 @@ var documents =
 				//QualiteValideeValide = jsonNode["qualiteValideeValide"]?.ToString(),
 				//TraiteLe = GetDateOnly(jsonNode["traiteLe"]?.GetValue<DateTime>()),
 				//TraitePar = jsonNode["traitePar"]?.ToString(),
-				//ModifieLe = GetDateOnly(jsonNode["modifieLe"]?.GetValue<DateTime>()),
+				//ModifieLe = jsonNode["modifieLe"]?.GetValue<DateTime>(),
 				//ModifiePar = jsonNode["modifiePar"]?.ToString(),
-				//NumeroContrat = jsonNode["numeroContrat"]?.ToString(),
 				//ChantierId = jsonNode["chantierId"]?.ToString(),
 				//AssureurId = jsonNode["assureurId"]?.ToString(),
 				CompteId = jsonNode["compteId"]?.ToString(),

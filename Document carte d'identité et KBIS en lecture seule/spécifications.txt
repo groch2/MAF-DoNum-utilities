@@ -1,0 +1,3 @@
+les triptyques des types de document "pièce d'identité" et "KBIS" doivent apparaître dans le bloc de recherche de la vue "Gestion du DoNum", mais pas dans le formulaire de métadonnées
+la case à cocher des document de résultats de recherche dont le types de document est "pièce d'identité" ou "KBIS" est désactivée
+ 

@@ -1,6 +1,0 @@
-faire un organigrame parent enfant des composants du client web Angular, et des communications qui existent entre les composant.
-voici une requête LinqPad pour lister les fichiers de composant de l'application :
-http://share.linqpad.net/g6pi25.linq
-(il faut mettre le bon chemin vers le répertoire "...console-donum\src")
-l'affichage d'un toaster en fonction de l'issue d'un appel de service par un composant doit être géré par le composant, et non par le service
-Les souscriptions qui résultent de l'appel à la méthode subscribe sur un observable doivent être gérés par une souscription globale dans le composant, à laquelle les souscriptions doivent être ajoutées, la souscription globale devant être disposée à la destruction du composant (voir cet exemple: https://blog.bitsrc.io/6-ways-to-unsubscribe-from-observables-in-angular-ab912819a78f#0e8a)

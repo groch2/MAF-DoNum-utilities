@@ -2,10 +2,10 @@ USE [editions]
 GO
 
 INSERT INTO [dbo].[GED_Editions]
-           ([Numéro_de_Demande]
+           ([Num?_de_Demande]
            ,[Nom_du_Document]
            ,[Date_Impression]
-           ,[Numéro_du_Destinataire]
+           ,[Num?_du_Destinataire]
            ,[Cle_du_Destinataire]
            ,[Date_de_la_Demande]
            ,[Heure_de_la_Demande]
@@ -30,7 +30,7 @@ INSERT INTO [dbo].[GED_Editions]
            ,[ReadOnly]
            ,[FlagGedIris])
 SELECT 
-(SELECT MAX([Numéro_de_Demande]) + 1 FROM [dbo].[GED_Editions])
+(SELECT MAX([Num?_de_Demande]) + 1 FROM [dbo].[GED_Editions])
 ,[Nom_du_Document]
 ,[Date_Impression]
 ,16803
@@ -58,5 +58,5 @@ SELECT
 ,[ReadOnly]
 ,[FlagGedIris]
 from [dbo].[GED_Editions]
-where [Numéro_de_Demande] = 1460495
+where [Num?_de_Demande] = 1460495
 GO
