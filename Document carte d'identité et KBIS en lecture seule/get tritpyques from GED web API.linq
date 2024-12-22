@@ -3,12 +3,7 @@
   <Namespace>System.Text.Json</Namespace>
 </Query>
 
-//typeof(Famille).GetProperties().Select(p => $"Famille{p.Name} = famille.{p.Name},").Dump();
-//typeof(Cote).GetProperties().Select(p => $"Cote{p.Name} = cote.{p.Name},").Dump();
-//typeof(TypeDocument).GetProperties().Select(p => $"TypeDocument{p.Name} = typeDocument.{p.Name},").Dump();
-//Environment.Exit(0);
-
-var httpClient = new HttpClient { BaseAddress = new Uri("https://api-ged-intra.hom.maf.local/v2/") };
+var httpClient = new HttpClient { BaseAddress = new Uri("https://api-ged-intra.int.maf.local/v2/") };
 var jsonSerializerOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
 var famillesListJsonResponse =
@@ -60,23 +55,21 @@ famillesList
 						new {
 							FamilleId = famille.FamilleDocumentId,
 							FamilleCode = famille.Code,
-							FamilleLibelle = famille.Libelle,
 
 							CoteId = cote.CoteDocumentId,
 							CoteCode = cote.Code,
-							CoteLibelle = cote.Libelle,
 
 							TypeDocumentId = typeDocument.TypeDocumentId,
 							TypeDocumentCode = typeDocument.Code,
-							TypeDocumentLibelle = typeDocument.Libelle,
 						})
 			))
 			.OrderBy(tryptique => tryptique.FamilleCode, StringComparer.OrdinalIgnoreCase)
 			.ThenBy(tryptique => tryptique.CoteCode, StringComparer.OrdinalIgnoreCase)
 			.ThenBy(tryptique => tryptique.TypeDocumentCode, StringComparer.OrdinalIgnoreCase)
-			.Where(t => t.FamilleCode == "DOCUMENTS PERSONNE")
-			.Where(t => t.CoteCode == "IDENTITE")
-			//.Where(t => t.TypeDocumentCode switch { "PIECE IDENTITE" or "KBIS" => true, _ => false })
+			.Where(t =>
+				t.FamilleCode == "DOCUMENTS PERSONNE" &&
+				t.CoteCode == "IDENTITE" &&
+				t.TypeDocumentCode switch { "PIECE IDENTITE" or "KBIS" => true, _ => false })
 			//.Select(t => new {
 			//	Famille = t.FamilleCode,
 			//	Cote = t.CoteCode,
