@@ -67,9 +67,10 @@ famillesList
 			.ThenBy(tryptique => tryptique.CoteCode, StringComparer.OrdinalIgnoreCase)
 			.ThenBy(tryptique => tryptique.TypeDocumentCode, StringComparer.OrdinalIgnoreCase)
 			.Where(t =>
-				t.FamilleCode == "DOCUMENTS PERSONNE" &&
+				t.FamilleCode == "DOCUMENTS PERSONNES" &&
 				t.CoteCode == "IDENTITE" &&
 				t.TypeDocumentCode switch { "PIECE IDENTITE" or "KBIS" => true, _ => false })
+			//.Where(t => t.TypeDocumentCode switch { "PIECE IDENTITE" or "KBIS" => true, _ => false })
 			//.Select(t => new {
 			//	Famille = t.FamilleCode,
 			//	Cote = t.CoteCode,
