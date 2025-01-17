@@ -9,7 +9,7 @@ var httpClient =
 const string userCode = "ROD";
 var documents_json =
 	await httpClient
-		.GetStringAsync($"?$filter=statut eq 'INDEXE' and (categoriesFamille eq 'DOCUMENTS CONTRAT' or categoriesFamille eq 'DOCUMENTS EMOA' or categoriesFamille eq 'DOCUMENTS PERSONNES') and assigneRedacteur eq '{userCode}'&$orderby=documentId desc");
+		.GetStringAsync($"?$filter=statut eq 'INDEXE' and categoriesFamille in ('DOCUMENTS CONTRAT','DOCUMENTS EMOA','DOCUMENTS PERSONNES') and assigneRedacteur eq '{userCode}'&$orderby=documentId desc");
 var jsonSerializerOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 var documents =
 	JsonDocument
@@ -23,7 +23,7 @@ var documents =
 				//AssigneRedacteur = jsonNode["assigneRedacteur"]?.ToString(),
 				DocumentId = jsonNode["documentId"]?.ToString(),
 				Libelle = jsonNode["libelle"]?.ToString(),
-				NumeroContrat = jsonNode["numeroContrat"]?.ToString(),
+				//NumeroContrat = jsonNode["numeroContrat"]?.ToString(),
 				//TypeGarantie = jsonNode["typeGarantie"]?.ToString(),
 				//FichierNom = jsonNode["fichierNom"]?.ToString(),
 				Famille = jsonNode["categoriesFamille"]?.ToString(),
